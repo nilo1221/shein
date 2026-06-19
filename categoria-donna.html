@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda SHEIN - I Migliori Prodotti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        
+        header {
+            background: #000000;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            background-color: #f0f0f0;
+        }
+        
+        .product-info {
+            padding: 1.5rem;
+        }
+        
+        .product-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #000000;
+        }
+        
+        .product-price {
+            font-size: 1.3rem;
+            color: #ff6b6b;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .product-description {
+            font-size: 0.9rem;
+            color: #666666;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+        
+        .affiliate-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background: #000000;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        
+        .affiliate-btn:hover {
+            background: #333333;
+        }
+        
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .disclaimer {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+        
+        .trend-banner {
+            background: #000000;
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .trend-banner h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        
+        .trend-banner p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .trend-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: white;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .trend-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🛍️ Moda SHEIN</h1>
+        <p>Scopri i migliori prodotti fashion a prezzi incredibili</p>
+    </header>
+    
+    <div class="container">
+        <div class="trend-banner">
+            <h2>🔥 Trend del Momento</h2>
+            <p>Scopri i prodotti più popolari e le ultime tendenze fashion</p>
+            <a href="https://it.shein.com/top-trend?contentCarrierId_adp=50068661_387851987%2C50068665_38621879%2C50068678_290265026%2C50068663_378679450%2C50068660_72070134%2C5478503_73354179%2C5156047_439585832%2C5734523_99811237%2C2146722_434242705%2C50043942_2679277%2C348429_30967259&entry_from=SwiftContentPlugin_SwiftTrendsPlugin%600%60387851987%2C%20SwiftContentPlugin_SwiftTrendsPlugin%601%6038621879%2C%20SwiftContentPlugin_SwiftTrendsPlugin%602%60290265026%2C%20SwiftContentPlugin_SwiftTrendsPlugin%603%60378679450%2C%20SwiftContentPlugin_SwiftTrendsPlugin%604%6072070134%2C%20SwiftContentPlugin_SwiftTrendsPlugin%605%6073354179%2C%20SwiftContentPlugin_SwiftTrendsPlugin%606%60439585832%2C%20SwiftContentPlugin_SwiftTrendsPlugin%607%6099811237%2C%20SwiftContentPlugin_SwiftTrendsPlugin%608%60434242705%2C%20SwiftContentPlugin_SwiftTrendsPlugin%609%602679277%2C%20SwiftContentPlugin_SwiftTrendsPlugin%6010%6030967259&jumpTrendsChannel=false&product_select_id=50068661%2C50068665%2C50068678%2C50068663%2C50068660%2C5478503%2C5156047%2C5734523%2C2146722%2C50043942%2C348429&src_identifier=on%3DONE_THIRD_COMPONENT%60cn%3DONE_THIRD_COMPONENT_7%60hz%3D-%60jc%3Dswift_13532%60ps%3D1_2&src_module=all&src_tab_page_id=page_home1781904471452&top_goods_id=387851987%2C38621879%2C290265026%2C378679450%2C72070134%2C73354179%2C439585832%2C99811237%2C434242705%2C2679277%2C30967259&trend_word_id=8073%2C8074%2C8075%2C8076%2C8077%2C6410%2C5427%2C7030%2C3538%2C7720%2C270&viewmore=true" class="trend-btn" target="_blank" rel="noopener">Scopri i Trend</a>
+        </div>
+        
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/v4/j/spmp/2026/05/09/f5/17783127885e31360e49c38431e6494318d01cc334.jpg" alt="Set da 2 pezzi Y2K" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Set da 2 pezzi donna stile Y2K</h3>
+                    <p class="product-description">Top e pantaloncini con blocchi di colore e righe, copricostume casual bohémien per vacanze al mare in primavera ed estate.</p>
+                    <a href="https://onelink.shein.com/39/5t7gf5r82yp8" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/v4/j/ssms/2026/05/20/a6/17792551947be6beee4400f28ee83e8c3eb6d2babc.jpg" alt="Abito bianco traforato" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Abito bianco traforato a maniche lunghe</h3>
+                    <p class="product-description">Abito da donna bianco traforato a maniche lunghe in maglia, stile casual Y2K vestibilità ampia, elegante stile da vacanza al mare.</p>
+                    <a href="https://onelink.shein.com/39/5t7gg78t807d" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/images3_pi/2024/05/23/ab/17164610522717e53330efae587bb80ac404c40467.jpg" alt="Camicia nera in raso" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Camicia nera in raso con fiocco</h3>
+                    <p class="product-description">Camicia nera in raso con fiocco aderente, stile Y2K, adatta per vacanze, laurea, feste eleganti, vacanze al mare.</p>
+                    <a href="https://onelink.shein.com/39/5t7ghkkkzz1e" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/v4/j/spmp/2026/01/15/4d/1768443842e6c05f0ad86b923f5f7cfc878e9cdabe.jpg" alt="Vestito Slim Fit Y2K" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">FOR BEAUTY Vestito Slim Fit Y2K</h3>
+                    <p class="product-description">Vestito Slim Fit con Spalline Sottili Y2K, Vestito Sexy Casual Senza Maniche, Nuovo Arrivo Estivo, Outfit per Uscite.</p>
+                    <a href="https://onelink.shein.com/39/5t7gi88ydc0r" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/v4/j/spmp/2025/08/27/8f/17562579449f8e825006c5563a9add746ebce19f5f.jpg" alt="Vestito copricostume nero" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Vestito copricostume nero trasparente</h3>
+                    <p class="product-description">Vestito copricostume da donna a maniche lunghe, con design trasparente e apertura sulla schiena, adatto per vacanze al mare.</p>
+                    <a href="https://onelink.shein.com/39/5t7gj7ridma8" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/v4/p/spmp/2025/04/16/d4/1744766367ac97fe25bfb00699a740eb8173f8cfc5.png" alt="Set bikini a quadri" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Set bikini a quadri neri</h3>
+                    <p class="product-description">Set bikini casual da spiaggia, festival musicali e vacanze, con stampa a quadri neri casuali, scollo a spalle scoperte.</p>
+                    <a href="https://onelink.shein.com/39/5t7gjvfvrojq" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/v4/j/spmp/2026/01/21/e8/1768975281f7f6ba6d7ddb12872d50967b45d038dd.jpg" alt="Vestito copricostume bohémien" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Vestito copricostume bohémien</h3>
+                    <p class="product-description">Vestito copricostume a maniche lunghe traforato e senza schienale in stile bohémien, adatto per la spiaggia e le vacanze.</p>
+                    <a href="https://onelink.shein.com/39/5t7gkuyfrytt" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/v4/j/spmp/2025/10/17/9c/17606686790c74ebde1cf3b5582779419a807137d2.jpg" alt="Canotta in rete marrone" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Canotta in rete marrone corsetto</h3>
+                    <p class="product-description">Canotta in rete marrone con stile corsetto e schiena scoperta, intimo casual estivo/autunnale per donna.</p>
+                    <a href="https://onelink.shein.com/39/5t7glqixk56d" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://img.ltwebstatic.com/v4/j/spmp/2026/03/30/6a/17748536303e8c3e38ed8d9f024190a8dc6c7416d1.jpg" alt="Abito asimmetrico lavorato a maglia" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Abito asimmetrico lavorato a maglia</h3>
+                    <p class="product-description">Elegante abito asimmetrico/con spacco alto in tessuto lavorato a maglia, adatto per feste, spiaggia, primavera/estate.</p>
+                    <a href="https://onelink.shein.com/39/5t7gmo2gihch" class="affiliate-btn" target="_blank" rel="noopener">Acquista su SHEIN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p class="disclaimer">In qualità di Affiliato SHEIN, guadagno una commissione sugli acquisti idonei effettuati tramite i link affiliati.</p>
+        <p class="disclaimer">© 2026 Moda SHEIN - Tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>
