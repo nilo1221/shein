@@ -399,6 +399,28 @@
             padding: 2rem;
         }
         
+        .category-card.donna {
+            background: linear-gradient(135deg, rgba(147, 112, 219, 0.3), rgba(138, 43, 226, 0.2));
+            border-color: rgba(147, 112, 219, 0.4);
+        }
+        
+        .category-card.donna:hover {
+            background: linear-gradient(135deg, rgba(147, 112, 219, 0.4), rgba(138, 43, 226, 0.3));
+            border-color: rgba(147, 112, 219, 0.6);
+            box-shadow: 0 20px 40px rgba(147, 112, 219, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+        }
+        
+        .category-card.uomo {
+            background: linear-gradient(135deg, rgba(70, 130, 180, 0.3), rgba(25, 25, 112, 0.2));
+            border-color: rgba(70, 130, 180, 0.4);
+        }
+        
+        .category-card.uomo:hover {
+            background: linear-gradient(135deg, rgba(70, 130, 180, 0.4), rgba(25, 25, 112, 0.3));
+            border-color: rgba(70, 130, 180, 0.6);
+            box-shadow: 0 20px 40px rgba(70, 130, 180, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+        }
+        
         .category-card::before {
             content: '';
             position: absolute;
@@ -578,7 +600,7 @@
     <section class="categories-section">
         <h2 class="section-title">Categorie</h2>
         <div class="categories-grid">
-            <a href="categoria-donna.html" class="category-card span-2 row-2">
+            <a href="categoria-donna.html" class="category-card donna span-2 row-2">
                 <div class="category-image">👗</div>
                 <div>
                     <h3 class="category-title">Moda Donna</h3>
@@ -587,7 +609,7 @@
                 <span class="category-arrow">→</span>
             </a>
             
-            <a href="categoria-uomo.html" class="category-card span-2">
+            <a href="categoria-uomo.html" class="category-card uomo span-2">
                 <div class="category-image">👔</div>
                 <div>
                     <h3 class="category-title">Moda Uomo</h3>
