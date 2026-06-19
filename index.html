@@ -20,151 +20,394 @@
             flex-direction: column;
         }
         
-        header {
-            background: #000000;
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
             color: white;
-            padding: 3rem 2rem;
+            padding: 6rem 2rem;
             text-align: center;
-        }
-        
-        header h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 3rem auto;
-            padding: 0 1rem;
-            flex: 1;
-        }
-        
-        .categories-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        
-        .category-card {
-            background: white;
-            border: 2px solid #000000;
-            border-radius: 10px;
+            position: relative;
             overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
-            text-decoration: none;
-            color: #000000;
         }
         
-        .category-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>');
+            background-size: 50px 50px;
+            animation: float 20s infinite linear;
         }
         
-        .category-image {
-            width: 100%;
-            height: 250px;
-            background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); }
+            100% { transform: translateY(-50px) rotate(360deg); }
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
             font-size: 4rem;
-        }
-        
-        .category-info {
-            padding: 2rem;
-            text-align: center;
-        }
-        
-        .category-title {
-            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
             font-weight: bold;
-            margin-bottom: 0.5rem;
+            letter-spacing: -2px;
+            animation: fadeInUp 1s ease;
         }
         
-        .category-description {
-            font-size: 1rem;
-            color: #666666;
+        .hero p {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.2s both;
         }
         
-        footer {
-            background-color: #000000;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: auto;
+        .hero-cta {
+            display: inline-block;
+            padding: 1.2rem 3rem;
+            background: white;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            animation: fadeInUp 1s ease 0.4s both;
         }
         
-        .disclaimer {
-            font-size: 0.8rem;
-            opacity: 0.7;
+        .hero-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(255,255,255,0.3);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Trend Banner */
+        .trend-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #f8f8f8, #ffffff);
         }
         
         .trend-banner {
             background: #000000;
             color: white;
-            padding: 2rem;
-            border-radius: 10px;
+            padding: 3rem;
+            border-radius: 20px;
             text-align: center;
-            margin-bottom: 2rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 1000px;
+            margin: 0 auto;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .trend-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 4s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.8; }
         }
         
         .trend-banner h2 {
-            font-size: 1.8rem;
+            font-size: 2.5rem;
             margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
         }
         
         .trend-banner p {
-            font-size: 1.1rem;
-            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
         }
         
         .trend-btn {
             display: inline-block;
-            padding: 1rem 2rem;
+            padding: 1.2rem 3rem;
             background: white;
             color: #000000;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 50px;
             font-weight: bold;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
         }
         
         .trend-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        /* Categories Section */
+        .categories-section {
+            padding: 5rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            font-weight: bold;
+        }
+        
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+        }
+        
+        .category-card {
+            background: white;
+            border: 2px solid #000000;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            text-decoration: none;
+            color: #000000;
+            position: relative;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+        }
+        
+        .category-image {
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 6rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .category-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0,0,0,0.1), transparent);
+        }
+        
+        .category-info {
+            padding: 2.5rem;
+            text-align: center;
+            background: white;
+        }
+        
+        .category-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .category-description {
+            font-size: 1.1rem;
+            color: #666666;
+            line-height: 1.6;
+        }
+        
+        .category-arrow {
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .category-card:hover .category-arrow {
+            transform: translateX(10px);
+        }
+        
+        /* Features Section */
+        .features-section {
+            padding: 5rem 2rem;
+            background: #000000;
+            color: white;
+        }
+        
+        .features-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            text-align: center;
+        }
+        
+        .feature-item {
+            padding: 2rem;
+        }
+        
+        .feature-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-description {
+            font-size: 1rem;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+            margin-top: auto;
+        }
+        
+        .disclaimer {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.2rem;
+            }
+            
+            .trend-banner h2 {
+                font-size: 2rem;
+            }
+            
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>🛍️ Moda SHEIN</h1>
-        <p>Scopri i migliori prodotti fashion a prezzi incredibili</p>
-    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>🛍️ Moda SHEIN</h1>
+            <p>Scopri i migliori prodotti fashion a prezzi incredibili</p>
+            <a href="categoria-donna.html" class="hero-cta">Esplora la Collezione</a>
+        </div>
+    </section>
     
-    <div class="container">
+    <section class="trend-section">
         <div class="trend-banner">
             <h2>🔥 Trend del Momento</h2>
             <p>Scopri i prodotti più popolari e le ultime tendenze fashion</p>
             <a href="https://it.shein.com/top-trend?contentCarrierId_adp=50068661_387851987%2C50068665_38621879%2C50068678_290265026%2C50068663_378679450%2C50068660_72070134%2C5478503_73354179%2C5156047_439585832%2C5734523_99811237%2C2146722_434242705%2C50043942_2679277%2C348429_30967259&entry_from=SwiftContentPlugin_SwiftTrendsPlugin%600%60387851987%2C%20SwiftContentPlugin_SwiftTrendsPlugin%601%6038621879%2C%20SwiftContentPlugin_SwiftTrendsPlugin%602%60290265026%2C%20SwiftContentPlugin_SwiftTrendsPlugin%603%60378679450%2C%20SwiftContentPlugin_SwiftTrendsPlugin%604%6072070134%2C%20SwiftContentPlugin_SwiftTrendsPlugin%605%6073354179%2C%20SwiftContentPlugin_SwiftTrendsPlugin%606%60439585832%2C%20SwiftContentPlugin_SwiftTrendsPlugin%607%6099811237%2C%20SwiftContentPlugin_SwiftTrendsPlugin%608%60434242705%2C%20SwiftContentPlugin_SwiftTrendsPlugin%609%602679277%2C%20SwiftContentPlugin_SwiftTrendsPlugin%6010%6030967259&jumpTrendsChannel=false&product_select_id=50068661%2C50068665%2C50068678%2C50068663%2C50068660%2C5478503%2C5156047%2C5734523%2C2146722%2C50043942%2C348429&src_identifier=on%3DONE_THIRD_COMPONENT%60cn%3DONE_THIRD_COMPONENT_7%60hz%3D-%60jc%3Dswift_13532%60ps%3D1_2&src_module=all&src_tab_page_id=page_home1781904471452&top_goods_id=387851987%2C38621879%2C290265026%2C378679450%2C72070134%2C73354179%2C439585832%2C99811237%2C434242705%2C2679277%2C30967259&trend_word_id=8073%2C8074%2C8075%2C8076%2C8077%2C6410%2C5427%2C7030%2C3538%2C7720%2C270&viewmore=true" class="trend-btn" target="_blank" rel="noopener">Scopri i Trend</a>
         </div>
-        
+    </section>
+    
+    <section class="categories-section">
+        <h2 class="section-title">Categorie</h2>
         <div class="categories-grid">
             <a href="categoria-donna.html" class="category-card">
                 <div class="category-image">👗</div>
                 <div class="category-info">
-                    <h2 class="category-title">Moda Donna</h2>
+                    <h3 class="category-title">Moda Donna</h3>
                     <p class="category-description">Abbigliamento, accessori e molto altro per la donna moderna</p>
+                    <span class="category-arrow">→</span>
+                </div>
+            </a>
+            
+            <a href="#" class="category-card">
+                <div class="category-image">👔</div>
+                <div class="category-info">
+                    <h3 class="category-title">Moda Uomo</h3>
+                    <p class="category-description">Stile e eleganza per l'uomo contemporaneo</p>
+                    <span class="category-arrow">→</span>
+                </div>
+            </a>
+            
+            <a href="#" class="category-card">
+                <div class="category-image">👟</div>
+                <div class="category-info">
+                    <h3 class="category-title">Scarpe</h3>
+                    <p class="category-description">Calzature per ogni occasione e stile</p>
+                    <span class="category-arrow">→</span>
+                </div>
+            </a>
+            
+            <a href="#" class="category-card">
+                <div class="category-image">💄</div>
+                <div class="category-info">
+                    <h3 class="category-title">Accessori</h3>
+                    <p class="category-description">Dettagli che fanno la differenza</p>
+                    <span class="category-arrow">→</span>
                 </div>
             </a>
         </div>
-    </div>
+    </section>
+    
+    <section class="features-section">
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">🚀</div>
+                <h3 class="feature-title">Spedizione Rapida</h3>
+                <p class="feature-description">Consegna veloce in tutto il mondo</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">💰</div>
+                <h3 class="feature-title">Prezzi Imbattibili</h3>
+                <p class="feature-description">Moda accessibile a tutti</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🔄</div>
+                <h3 class="feature-title">Resi Facili</h3>
+                <p class="feature-description">Politica di reso semplice e veloce</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">✨</div>
+                <h3 class="feature-title">Nuovi Arrivi</h3>
+                <p class="feature-description">Ogni giorno nuovi prodotti</p>
+            </div>
+        </div>
+    </section>
     
     <footer>
         <p class="disclaimer">In qualità di Affiliato SHEIN, guadagno una commissione sugli acquisti idonei effettuati tramite i link affiliati.</p>
