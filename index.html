@@ -370,8 +370,11 @@
         
         .categories-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2.5rem;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 250px);
+            gap: 1.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
         }
         
         .category-card {
@@ -379,7 +382,7 @@
             -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
             border: 2px solid rgba(0, 0, 0, 0.1);
-            border-radius: 20px;
+            border-radius: 24px;
             overflow: hidden;
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             cursor: pointer;
@@ -387,64 +390,64 @@
             color: #000000;
             position: relative;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
         }
         
         .category-card:hover {
             background: rgba(255, 255, 255, 0.85);
             border-color: rgba(0, 0, 0, 0.2);
-            transform: translateY(-15px) scale(1.02);
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .category-card.span-2 {
+            grid-column: span 2;
+        }
+        
+        .category-card.row-2 {
+            grid-row: span 2;
         }
         
         .category-image {
-            width: 100%;
-            height: 300px;
-            background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 6rem;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .category-image::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(135deg, rgba(0,0,0,0.1), transparent);
-        }
-        
-        .category-info {
-            padding: 2.5rem;
-            text-align: center;
-            background: white;
-        }
-        
-        .category-title {
-            font-size: 1.8rem;
-            font-weight: bold;
+            font-size: 4rem;
             margin-bottom: 1rem;
-        }
-        
-        .category-description {
-            font-size: 1.1rem;
-            color: #666666;
-            line-height: 1.6;
-        }
-        
-        .category-arrow {
-            display: inline-block;
-            margin-top: 1rem;
-            font-size: 1.5rem;
             transition: transform 0.3s ease;
         }
         
+        .category-card:hover .category-image {
+            transform: scale(1.1);
+        }
+        
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .category-description {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.4;
+        }
+        
+        .category-arrow {
+            position: absolute;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            font-size: 1.5rem;
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: all 0.3s ease;
+        }
+        
         .category-card:hover .category-arrow {
-            transform: translateX(10px);
+            opacity: 1;
+            transform: translateX(0);
         }
         
         /* Features Section */
@@ -515,6 +518,13 @@
             
             .categories-grid {
                 grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
+            
+            .category-card.span-2,
+            .category-card.row-2 {
+                grid-column: span 1;
+                grid-row: span 1;
             }
         }
     </style>
@@ -556,22 +566,22 @@
     <section class="categories-section">
         <h2 class="section-title">Categorie</h2>
         <div class="categories-grid">
-            <a href="categoria-donna.html" class="category-card">
+            <a href="categoria-donna.html" class="category-card span-2 row-2">
                 <div class="category-image">👗</div>
-                <div class="category-info">
+                <div>
                     <h3 class="category-title">Moda Donna</h3>
                     <p class="category-description">Abbigliamento, accessori e molto altro per la donna moderna</p>
-                    <span class="category-arrow">→</span>
                 </div>
+                <span class="category-arrow">→</span>
             </a>
             
-            <a href="categoria-uomo.html" class="category-card">
+            <a href="categoria-uomo.html" class="category-card span-2">
                 <div class="category-image">👔</div>
-                <div class="category-info">
+                <div>
                     <h3 class="category-title">Moda Uomo</h3>
                     <p class="category-description">Abbigliamento sportivo, fitness e casual per l'uomo moderno</p>
-                    <span class="category-arrow">→</span>
                 </div>
+                <span class="category-arrow">→</span>
             </a>
         </div>
     </section>
