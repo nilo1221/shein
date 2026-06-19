@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://tuo-dominio.com/sitemap.xml
+Sitemap: https://shein-lilac.vercel.app/sitemap.xml
