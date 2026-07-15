@@ -201,8 +201,7 @@ async def send_to_telegram(bot: Bot, product: Dict, utm_params: Dict) -> bool:
                             InlineKeyboardButton("📸 Seguici su Instagram", url=instagram_link_with_tracking)
                         ],
                         [
-                            InlineKeyboardButton("🌐 Vedi tutti i prodotti", url=page_link_with_tracking),
-                            InlineKeyboardButton("📢 Condividi Canale", url=CHANNEL_INVITE_LINK)
+                            InlineKeyboardButton("🌐 Vedi tutti i prodotti", url=page_link_with_tracking)
                         ]
                     ])
                 )
@@ -219,8 +218,7 @@ async def send_to_telegram(bot: Bot, product: Dict, utm_params: Dict) -> bool:
                             InlineKeyboardButton("📸 Seguici su Instagram", url=instagram_link_with_tracking)
                         ],
                         [
-                            InlineKeyboardButton("🌐 Vedi tutti i prodotti", url=page_link_with_tracking),
-                            InlineKeyboardButton("📢 Condividi Canale", url=CHANNEL_INVITE_LINK)
+                            InlineKeyboardButton("🌐 Vedi tutti i prodotti", url=page_link_with_tracking)
                         ]
                     ])
                 )
