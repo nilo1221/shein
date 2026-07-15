@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sconto60",
+    "title": "🔥 60% DI SCONTO",
+    "description": "Sconto imperdibile su tutti i prodotti! Approfitta delle offerte migliori.",
+    "emoji": "🔥",
+    "valid_until": "31/12/2026"
+  },
+  {
+    "id": "sotto1euro",
+    "title": "💰 TUTTO SOTTO 1€",
+    "description": "Prodotti a prezzi incredibili! Non perdere questa opportunità.",
+    "emoji": "💰",
+    "valid_until": "31/12/2026"
+  },
+  {
+    "id": "nuovi_arrivi",
+    "title": "✨ NUOVI ARRIVI",
+    "description": "Scopri le ultime novità della collezione!",
+    "emoji": "✨",
+    "valid_until": "31/12/2026"
+  },
+  {
+    "id": "estate",
+    "title": "☀️ COLLEZIONE ESTATE",
+    "description": "I migliori prodotti per la tua estate perfetta.",
+    "emoji": "☀️",
+    "valid_until": "30/09/2026"
+  }
+]

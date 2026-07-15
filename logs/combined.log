@@ -1,0 +1,1071 @@
+2026-07-15 03:19:39,033 - __main__ - INFO - Bot SHEIN Avanzato avviato
+2026-07-15 03:19:39,034 - __main__ - WARNING - File sent_products.json non trovato, creazione nuovo registro
+2026-07-15 03:19:39,034 - __main__ - INFO - Prodotti caricati: 38
+2026-07-15 03:19:39,034 - __main__ - INFO - Link già inviati: 0
+2026-07-15 03:19:39,034 - __main__ - INFO - Invio campagne promozionali...
+2026-07-15 03:19:39,163 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:39,164 - __main__ - ERROR - Errore invio campagna 🔥 60% DI SCONTO: Chat not found
+2026-07-15 03:19:39,231 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:39,232 - __main__ - ERROR - Errore invio campagna 💰 TUTTO SOTTO 1€: Chat not found
+2026-07-15 03:19:39,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:39,296 - __main__ - ERROR - Errore invio campagna ✨ NUOVI ARRIVI: Chat not found
+2026-07-15 03:19:39,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:39,355 - __main__ - ERROR - Errore invio campagna ☀️ COLLEZIONE ESTATE: Chat not found
+2026-07-15 03:19:39,355 - __main__ - INFO - Campagne inviate: 0
+2026-07-15 03:19:39,355 - __main__ - INFO - Nuovo prodotto: Set da 2 pezzi donna stile Y2K... (donna)
+2026-07-15 03:19:39,355 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:19:39,397 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:39,397 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:39,397 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:19:41,477 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:41,477 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:41,477 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:19:45,563 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:45,564 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:45,564 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:19:45,564 - __main__ - WARNING - Fallito invio prodotto: Set da 2 pezzi donna stile Y2K...
+2026-07-15 03:19:45,564 - __main__ - INFO - Nuovo prodotto: Abito bianco traforato a manic... (donna)
+2026-07-15 03:19:45,564 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:19:45,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:45,655 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:45,655 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:19:47,805 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:47,805 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:47,805 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:19:51,866 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:51,867 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:51,867 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:19:51,867 - __main__ - WARNING - Fallito invio prodotto: Abito bianco traforato a manic...
+2026-07-15 03:19:51,867 - __main__ - INFO - Nuovo prodotto: Camicia nera in raso con fiocc... (donna)
+2026-07-15 03:19:51,868 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:19:51,926 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:51,927 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:51,927 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:19:53,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:53,982 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:53,982 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:19:58,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:58,052 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:58,052 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:19:58,052 - __main__ - WARNING - Fallito invio prodotto: Camicia nera in raso con fiocc...
+2026-07-15 03:19:58,052 - __main__ - INFO - Nuovo prodotto: FOR BEAUTY Vestito Slim Fit Y2... (donna)
+2026-07-15 03:19:58,052 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:19:58,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:19:58,104 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:19:58,104 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:20:00,154 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:00,154 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:00,155 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:20:04,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:04,212 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:04,212 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:20:04,212 - __main__ - WARNING - Fallito invio prodotto: FOR BEAUTY Vestito Slim Fit Y2...
+2026-07-15 03:20:04,212 - __main__ - INFO - Nuovo prodotto: Vestito copricostume nero tras... (donna)
+2026-07-15 03:20:04,212 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:20:04,283 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:04,283 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:04,284 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:20:06,343 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:06,344 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:06,344 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:20:10,396 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:10,397 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:10,397 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:20:10,397 - __main__ - WARNING - Fallito invio prodotto: Vestito copricostume nero tras...
+2026-07-15 03:20:10,397 - __main__ - INFO - Nuovo prodotto: Set bikini a quadri neri... (donna)
+2026-07-15 03:20:10,398 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:20:10,446 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:10,446 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:10,446 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:20:12,548 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:12,548 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:12,549 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:20:16,608 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:16,609 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:16,609 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:20:16,609 - __main__ - WARNING - Fallito invio prodotto: Set bikini a quadri neri...
+2026-07-15 03:20:16,609 - __main__ - INFO - Nuovo prodotto: Vestito copricostume bohémien... (donna)
+2026-07-15 03:20:16,609 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:20:16,666 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:16,667 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:16,667 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:20:18,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:18,766 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:18,766 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:20:22,848 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:22,849 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:22,849 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:20:22,849 - __main__ - WARNING - Fallito invio prodotto: Vestito copricostume bohémien...
+2026-07-15 03:20:22,849 - __main__ - INFO - Nuovo prodotto: Canotta in rete marrone corset... (donna)
+2026-07-15 03:20:22,849 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:20:22,920 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:22,920 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:22,920 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:20:24,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:24,992 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:24,992 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:20:29,054 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:29,055 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:29,055 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:20:29,055 - __main__ - WARNING - Fallito invio prodotto: Canotta in rete marrone corset...
+2026-07-15 03:20:29,055 - __main__ - INFO - Nuovo prodotto: Abito asimmetrico lavorato a m... (donna)
+2026-07-15 03:20:29,055 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:20:29,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:29,120 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:29,120 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:20:31,242 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:31,242 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:31,242 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:20:35,341 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:35,341 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:35,342 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:20:35,342 - __main__ - WARNING - Fallito invio prodotto: Abito asimmetrico lavorato a m...
+2026-07-15 03:20:35,342 - __main__ - INFO - Nuovo prodotto: Abito in maglia giallo senza m... (donna)
+2026-07-15 03:20:35,342 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:20:35,401 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:35,402 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:35,402 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:20:37,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:37,476 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:37,476 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:20:41,526 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:41,527 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:41,527 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:20:41,527 - __main__ - WARNING - Fallito invio prodotto: Abito in maglia giallo senza m...
+2026-07-15 03:20:41,527 - __main__ - INFO - Nuovo prodotto: Canotta schiena scoperta con s... (donna)
+2026-07-15 03:20:41,527 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:20:41,570 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:20:41,570 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:20:41,570 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:22:15,244 - __main__ - INFO - Bot SHEIN Avanzato avviato
+2026-07-15 03:22:15,244 - __main__ - WARNING - File sent_products.json non trovato, creazione nuovo registro
+2026-07-15 03:22:15,244 - __main__ - INFO - Prodotti caricati: 38
+2026-07-15 03:22:15,244 - __main__ - INFO - Link già inviati: 0
+2026-07-15 03:22:15,244 - __main__ - INFO - Invio campagne promozionali...
+2026-07-15 03:22:15,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:15,663 - __main__ - ERROR - Errore invio campagna 🔥 60% DI SCONTO: Chat not found
+2026-07-15 03:22:15,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:15,767 - __main__ - ERROR - Errore invio campagna 💰 TUTTO SOTTO 1€: Chat not found
+2026-07-15 03:22:15,877 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:15,878 - __main__ - ERROR - Errore invio campagna ✨ NUOVI ARRIVI: Chat not found
+2026-07-15 03:22:15,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:15,940 - __main__ - ERROR - Errore invio campagna ☀️ COLLEZIONE ESTATE: Chat not found
+2026-07-15 03:22:15,940 - __main__ - INFO - Campagne inviate: 0
+2026-07-15 03:22:15,940 - __main__ - INFO - Nuovo prodotto: Set da 2 pezzi donna stile Y2K... (donna)
+2026-07-15 03:22:15,940 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:22:16,043 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:16,044 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:16,044 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:22:18,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:18,098 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:18,099 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:22:22,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:22,211 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:22,211 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:22:22,211 - __main__ - WARNING - Fallito invio prodotto: Set da 2 pezzi donna stile Y2K...
+2026-07-15 03:22:22,211 - __main__ - INFO - Nuovo prodotto: Abito bianco traforato a manic... (donna)
+2026-07-15 03:22:22,211 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:22:22,302 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:22,303 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:22,303 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:22:24,389 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:24,390 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:24,390 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:22:28,440 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:28,440 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:28,441 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:22:28,441 - __main__ - WARNING - Fallito invio prodotto: Abito bianco traforato a manic...
+2026-07-15 03:22:28,441 - __main__ - INFO - Nuovo prodotto: Camicia nera in raso con fiocc... (donna)
+2026-07-15 03:22:28,441 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:22:28,486 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:28,487 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:28,487 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:22:30,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:30,540 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:30,540 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:22:34,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:34,590 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:34,590 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:22:34,590 - __main__ - WARNING - Fallito invio prodotto: Camicia nera in raso con fiocc...
+2026-07-15 03:22:34,590 - __main__ - INFO - Nuovo prodotto: FOR BEAUTY Vestito Slim Fit Y2... (donna)
+2026-07-15 03:22:34,591 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:22:34,656 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:34,657 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:34,657 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:22:36,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:36,708 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:36,709 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:22:40,759 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:40,759 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:40,760 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:22:40,760 - __main__ - WARNING - Fallito invio prodotto: FOR BEAUTY Vestito Slim Fit Y2...
+2026-07-15 03:22:40,760 - __main__ - INFO - Nuovo prodotto: Vestito copricostume nero tras... (donna)
+2026-07-15 03:22:40,760 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:22:40,809 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:40,810 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:40,810 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:22:42,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:42,869 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:42,869 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:22:46,917 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:46,917 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:46,918 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:22:46,918 - __main__ - WARNING - Fallito invio prodotto: Vestito copricostume nero tras...
+2026-07-15 03:22:46,918 - __main__ - INFO - Nuovo prodotto: Set bikini a quadri neri... (donna)
+2026-07-15 03:22:46,918 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:22:46,963 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:46,964 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:46,964 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:22:49,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:49,030 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:49,030 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:22:53,078 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:53,079 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:53,079 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:22:53,079 - __main__ - WARNING - Fallito invio prodotto: Set bikini a quadri neri...
+2026-07-15 03:22:53,079 - __main__ - INFO - Nuovo prodotto: Vestito copricostume bohémien... (donna)
+2026-07-15 03:22:53,079 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:22:53,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:53,123 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:53,123 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:22:55,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:55,226 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:55,226 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:22:59,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:59,294 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:59,294 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:22:59,294 - __main__ - WARNING - Fallito invio prodotto: Vestito copricostume bohémien...
+2026-07-15 03:22:59,294 - __main__ - INFO - Nuovo prodotto: Canotta in rete marrone corset... (donna)
+2026-07-15 03:22:59,294 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:22:59,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:22:59,340 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:22:59,340 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:01,398 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:01,399 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:01,399 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:05,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:05,624 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:05,624 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:05,624 - __main__ - WARNING - Fallito invio prodotto: Canotta in rete marrone corset...
+2026-07-15 03:23:05,624 - __main__ - INFO - Nuovo prodotto: Abito asimmetrico lavorato a m... (donna)
+2026-07-15 03:23:05,624 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:05,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:05,757 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:05,757 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:07,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:07,854 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:07,854 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:11,910 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:11,911 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:11,911 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:11,911 - __main__ - WARNING - Fallito invio prodotto: Abito asimmetrico lavorato a m...
+2026-07-15 03:23:11,911 - __main__ - INFO - Nuovo prodotto: Abito in maglia giallo senza m... (donna)
+2026-07-15 03:23:11,911 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:11,973 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:11,974 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:11,974 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:14,033 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:14,034 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:14,034 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:18,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:18,118 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:18,118 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:18,118 - __main__ - WARNING - Fallito invio prodotto: Abito in maglia giallo senza m...
+2026-07-15 03:23:18,118 - __main__ - INFO - Nuovo prodotto: Canotta schiena scoperta con s... (donna)
+2026-07-15 03:23:18,118 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:18,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:18,184 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:18,184 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:20,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:20,235 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:20,235 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:24,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:24,281 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:24,281 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:24,281 - __main__ - WARNING - Fallito invio prodotto: Canotta schiena scoperta con s...
+2026-07-15 03:23:24,281 - __main__ - INFO - Nuovo prodotto: Set elegante canotta e gonna p... (donna)
+2026-07-15 03:23:24,281 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:24,328 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:24,329 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:24,329 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:26,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:26,386 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:26,386 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:30,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:30,442 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:30,442 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:30,442 - __main__ - WARNING - Fallito invio prodotto: Set elegante canotta e gonna p...
+2026-07-15 03:23:30,442 - __main__ - INFO - Nuovo prodotto: Abito da spiaggia bianco senza... (donna)
+2026-07-15 03:23:30,442 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:30,490 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:30,491 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:30,491 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:32,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:32,540 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:32,540 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:36,599 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:36,600 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:36,600 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:36,600 - __main__ - WARNING - Fallito invio prodotto: Abito da spiaggia bianco senza...
+2026-07-15 03:23:36,600 - __main__ - INFO - Nuovo prodotto: Vestito Maxi giallo con spacco... (donna)
+2026-07-15 03:23:36,601 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:36,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:36,680 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:36,680 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:38,746 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:38,747 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:38,747 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:42,824 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:42,825 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:42,825 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:42,825 - __main__ - WARNING - Fallito invio prodotto: Vestito Maxi giallo con spacco...
+2026-07-15 03:23:42,825 - __main__ - INFO - Nuovo prodotto: Bikini a triangolo con paillet... (donna)
+2026-07-15 03:23:42,825 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:42,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:42,916 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:42,916 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:44,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:44,971 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:44,971 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:49,028 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:49,029 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:49,029 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:49,029 - __main__ - WARNING - Fallito invio prodotto: Bikini a triangolo con paillet...
+2026-07-15 03:23:49,029 - __main__ - INFO - Nuovo prodotto: Abito mini con motivo leoparda... (donna)
+2026-07-15 03:23:49,029 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:49,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:49,104 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:49,104 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:51,151 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:51,151 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:51,151 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:23:55,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:55,202 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:55,203 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:23:55,203 - __main__ - WARNING - Fallito invio prodotto: Abito mini con motivo leoparda...
+2026-07-15 03:23:55,203 - __main__ - INFO - Nuovo prodotto: Pantaloncini casual larghi con... (donna)
+2026-07-15 03:23:55,203 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:23:55,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:55,247 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:55,247 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:23:57,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:23:57,304 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:23:57,304 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:24:01,352 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:01,353 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:01,353 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:24:01,353 - __main__ - WARNING - Fallito invio prodotto: Pantaloncini casual larghi con...
+2026-07-15 03:24:01,353 - __main__ - INFO - Nuovo prodotto: Abito in maglia marrone stile ... (donna)
+2026-07-15 03:24:01,353 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:01,400 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:01,401 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:01,401 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:03,449 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:03,450 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:03,450 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:24:07,500 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:07,501 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:07,501 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:24:07,501 - __main__ - WARNING - Fallito invio prodotto: Abito in maglia marrone stile ...
+2026-07-15 03:24:07,501 - __main__ - INFO - Nuovo prodotto: Bikini a vita alta con stampa ... (donna)
+2026-07-15 03:24:07,501 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:07,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:07,546 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:07,546 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:09,595 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:09,596 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:09,596 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:24:13,645 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:13,646 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:13,646 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:24:13,646 - __main__ - WARNING - Fallito invio prodotto: Bikini a vita alta con stampa ...
+2026-07-15 03:24:13,646 - __main__ - INFO - Nuovo prodotto: Costume da bagno intero con sc... (donna)
+2026-07-15 03:24:13,646 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:13,691 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:13,692 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:13,692 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:15,741 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:15,742 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:15,742 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:24:19,791 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:19,792 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:19,792 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:24:19,792 - __main__ - WARNING - Fallito invio prodotto: Costume da bagno intero con sc...
+2026-07-15 03:24:19,792 - __main__ - INFO - Nuovo prodotto: Set 4 pezzi per allenamento sp... (donna)
+2026-07-15 03:24:19,792 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:19,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:19,835 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:19,835 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:21,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:21,886 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:21,886 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:24:25,934 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:25,935 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:25,935 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:24:25,935 - __main__ - WARNING - Fallito invio prodotto: Set 4 pezzi per allenamento sp...
+2026-07-15 03:24:25,935 - __main__ - INFO - Nuovo prodotto: Vestito Slim Fit Y2K con spall... (donna)
+2026-07-15 03:24:25,935 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:25,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:25,984 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:25,985 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:37,505 - __main__ - INFO - Bot SHEIN Avanzato avviato
+2026-07-15 03:24:37,505 - __main__ - WARNING - File sent_products.json non trovato, creazione nuovo registro
+2026-07-15 03:24:37,505 - __main__ - INFO - Prodotti caricati: 38
+2026-07-15 03:24:37,505 - __main__ - INFO - Link già inviati: 0
+2026-07-15 03:24:37,505 - __main__ - INFO - Invio campagne promozionali...
+2026-07-15 03:24:37,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:37,902 - __main__ - ERROR - Errore invio campagna 🔥 60% DI SCONTO: Chat not found
+2026-07-15 03:24:37,949 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:37,950 - __main__ - ERROR - Errore invio campagna 💰 TUTTO SOTTO 1€: Chat not found
+2026-07-15 03:24:37,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:38,000 - __main__ - ERROR - Errore invio campagna ✨ NUOVI ARRIVI: Chat not found
+2026-07-15 03:24:38,056 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:38,057 - __main__ - ERROR - Errore invio campagna ☀️ COLLEZIONE ESTATE: Chat not found
+2026-07-15 03:24:38,057 - __main__ - INFO - Campagne inviate: 0
+2026-07-15 03:24:38,057 - __main__ - INFO - Nuovo prodotto: Set da 2 pezzi donna stile Y2K... (donna)
+2026-07-15 03:24:38,057 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:38,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:38,106 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:38,107 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:40,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:40,167 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:40,168 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:24:44,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:44,310 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:44,310 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:24:44,310 - __main__ - WARNING - Fallito invio prodotto: Set da 2 pezzi donna stile Y2K...
+2026-07-15 03:24:44,310 - __main__ - INFO - Nuovo prodotto: Abito bianco traforato a manic... (donna)
+2026-07-15 03:24:44,311 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:44,437 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:44,438 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:44,438 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:46,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:46,505 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:46,505 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:24:50,561 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:50,562 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:50,562 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:24:50,562 - __main__ - WARNING - Fallito invio prodotto: Abito bianco traforato a manic...
+2026-07-15 03:24:50,562 - __main__ - INFO - Nuovo prodotto: Camicia nera in raso con fiocc... (donna)
+2026-07-15 03:24:50,562 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:50,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:50,613 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:50,613 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:52,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:52,665 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:52,665 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:24:56,883 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:56,883 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:56,883 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:24:56,883 - __main__ - WARNING - Fallito invio prodotto: Camicia nera in raso con fiocc...
+2026-07-15 03:24:56,883 - __main__ - INFO - Nuovo prodotto: FOR BEAUTY Vestito Slim Fit Y2... (donna)
+2026-07-15 03:24:56,883 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:24:56,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:56,933 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:56,933 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:24:59,063 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:24:59,063 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:24:59,063 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:03,127 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:03,128 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:03,128 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:03,128 - __main__ - WARNING - Fallito invio prodotto: FOR BEAUTY Vestito Slim Fit Y2...
+2026-07-15 03:25:03,128 - __main__ - INFO - Nuovo prodotto: Vestito copricostume nero tras... (donna)
+2026-07-15 03:25:03,129 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:03,174 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:03,175 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:03,175 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:05,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:05,227 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:05,227 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:09,279 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:09,280 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:09,280 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:09,280 - __main__ - WARNING - Fallito invio prodotto: Vestito copricostume nero tras...
+2026-07-15 03:25:09,280 - __main__ - INFO - Nuovo prodotto: Set bikini a quadri neri... (donna)
+2026-07-15 03:25:09,280 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:09,342 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:09,343 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:09,343 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:11,392 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:11,393 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:11,393 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:15,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:15,447 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:15,447 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:15,447 - __main__ - WARNING - Fallito invio prodotto: Set bikini a quadri neri...
+2026-07-15 03:25:15,447 - __main__ - INFO - Nuovo prodotto: Vestito copricostume bohémien... (donna)
+2026-07-15 03:25:15,448 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:15,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:15,495 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:15,496 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:17,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:17,554 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:17,554 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:21,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:21,605 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:21,605 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:21,606 - __main__ - WARNING - Fallito invio prodotto: Vestito copricostume bohémien...
+2026-07-15 03:25:21,606 - __main__ - INFO - Nuovo prodotto: Canotta in rete marrone corset... (donna)
+2026-07-15 03:25:21,606 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:21,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:21,653 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:21,653 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:23,712 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:23,713 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:23,713 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:27,768 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:27,768 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:27,768 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:27,769 - __main__ - WARNING - Fallito invio prodotto: Canotta in rete marrone corset...
+2026-07-15 03:25:27,769 - __main__ - INFO - Nuovo prodotto: Abito asimmetrico lavorato a m... (donna)
+2026-07-15 03:25:27,769 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:27,822 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:27,823 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:27,823 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:29,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:29,941 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:29,941 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:33,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:33,995 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:33,995 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:33,995 - __main__ - WARNING - Fallito invio prodotto: Abito asimmetrico lavorato a m...
+2026-07-15 03:25:33,995 - __main__ - INFO - Nuovo prodotto: Abito in maglia giallo senza m... (donna)
+2026-07-15 03:25:33,995 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:34,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:34,058 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:34,058 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:36,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:36,113 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:36,113 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:40,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:40,167 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:40,168 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:40,168 - __main__ - WARNING - Fallito invio prodotto: Abito in maglia giallo senza m...
+2026-07-15 03:25:40,168 - __main__ - INFO - Nuovo prodotto: Canotta schiena scoperta con s... (donna)
+2026-07-15 03:25:40,168 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:40,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:40,215 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:40,216 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:42,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:42,286 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:42,286 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:46,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:46,391 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:46,391 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:46,391 - __main__ - WARNING - Fallito invio prodotto: Canotta schiena scoperta con s...
+2026-07-15 03:25:46,391 - __main__ - INFO - Nuovo prodotto: Set elegante canotta e gonna p... (donna)
+2026-07-15 03:25:46,391 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:46,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:46,442 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:46,442 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:48,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:48,503 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:48,504 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:52,561 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:52,562 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:52,562 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:52,562 - __main__ - WARNING - Fallito invio prodotto: Set elegante canotta e gonna p...
+2026-07-15 03:25:52,562 - __main__ - INFO - Nuovo prodotto: Abito da spiaggia bianco senza... (donna)
+2026-07-15 03:25:52,563 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:52,618 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:52,619 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:52,619 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:25:54,731 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:54,732 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:54,732 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:25:58,792 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:58,793 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:58,793 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:25:58,793 - __main__ - WARNING - Fallito invio prodotto: Abito da spiaggia bianco senza...
+2026-07-15 03:25:58,793 - __main__ - INFO - Nuovo prodotto: Vestito Maxi giallo con spacco... (donna)
+2026-07-15 03:25:58,793 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:25:58,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:25:58,852 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:25:58,852 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:00,910 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:00,911 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:00,911 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:04,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:04,988 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:04,988 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:04,988 - __main__ - WARNING - Fallito invio prodotto: Vestito Maxi giallo con spacco...
+2026-07-15 03:26:04,989 - __main__ - INFO - Nuovo prodotto: Bikini a triangolo con paillet... (donna)
+2026-07-15 03:26:04,989 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:05,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:05,054 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:05,054 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:07,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:07,157 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:07,157 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:11,212 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:11,213 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:11,213 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:11,213 - __main__ - WARNING - Fallito invio prodotto: Bikini a triangolo con paillet...
+2026-07-15 03:26:11,213 - __main__ - INFO - Nuovo prodotto: Abito mini con motivo leoparda... (donna)
+2026-07-15 03:26:11,213 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:11,268 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:11,269 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:11,269 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:13,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:13,327 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:13,327 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:17,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:17,381 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:17,381 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:17,381 - __main__ - WARNING - Fallito invio prodotto: Abito mini con motivo leoparda...
+2026-07-15 03:26:17,382 - __main__ - INFO - Nuovo prodotto: Pantaloncini casual larghi con... (donna)
+2026-07-15 03:26:17,382 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:17,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:17,433 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:17,433 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:19,530 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:19,531 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:19,531 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:23,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:23,589 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:23,590 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:23,590 - __main__ - WARNING - Fallito invio prodotto: Pantaloncini casual larghi con...
+2026-07-15 03:26:23,590 - __main__ - INFO - Nuovo prodotto: Abito in maglia marrone stile ... (donna)
+2026-07-15 03:26:23,590 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:23,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:23,636 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:23,637 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:25,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:25,689 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:25,689 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:29,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:29,753 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:29,754 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:29,754 - __main__ - WARNING - Fallito invio prodotto: Abito in maglia marrone stile ...
+2026-07-15 03:26:29,754 - __main__ - INFO - Nuovo prodotto: Bikini a vita alta con stampa ... (donna)
+2026-07-15 03:26:29,754 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:29,802 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:29,802 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:29,803 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:31,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:31,854 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:31,854 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:35,908 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:35,909 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:35,909 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:35,909 - __main__ - WARNING - Fallito invio prodotto: Bikini a vita alta con stampa ...
+2026-07-15 03:26:35,909 - __main__ - INFO - Nuovo prodotto: Costume da bagno intero con sc... (donna)
+2026-07-15 03:26:35,910 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:35,967 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:35,968 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:35,968 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:38,048 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:38,048 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:38,048 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:42,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:42,122 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:42,122 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:42,122 - __main__ - WARNING - Fallito invio prodotto: Costume da bagno intero con sc...
+2026-07-15 03:26:42,122 - __main__ - INFO - Nuovo prodotto: Set 4 pezzi per allenamento sp... (donna)
+2026-07-15 03:26:42,122 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:42,269 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:42,270 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:42,270 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:44,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:44,338 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:44,339 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:48,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:48,399 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:48,399 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:48,400 - __main__ - WARNING - Fallito invio prodotto: Set 4 pezzi per allenamento sp...
+2026-07-15 03:26:48,400 - __main__ - INFO - Nuovo prodotto: Vestito Slim Fit Y2K con spall... (donna)
+2026-07-15 03:26:48,400 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:48,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:48,449 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:48,449 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:50,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:50,505 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:50,505 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:26:54,568 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:54,568 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:54,568 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:26:54,569 - __main__ - WARNING - Fallito invio prodotto: Vestito Slim Fit Y2K con spall...
+2026-07-15 03:26:54,569 - __main__ - INFO - Nuovo prodotto: Blusa in raso color champagne... (donna)
+2026-07-15 03:26:54,569 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:26:54,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:54,642 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:54,642 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:26:56,709 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:26:56,709 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:26:56,709 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:00,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:00,767 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:00,767 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:00,767 - __main__ - WARNING - Fallito invio prodotto: Blusa in raso color champagne...
+2026-07-15 03:27:00,767 - __main__ - INFO - Nuovo prodotto: Bikini a fascia con stampa di ... (donna)
+2026-07-15 03:27:00,768 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:00,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:00,820 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:00,820 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:02,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:02,873 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:02,873 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:06,945 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:06,945 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:06,946 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:06,946 - __main__ - WARNING - Fallito invio prodotto: Bikini a fascia con stampa di ...
+2026-07-15 03:27:06,946 - __main__ - INFO - Nuovo prodotto: Abito lungo elegante a strati ... (donna)
+2026-07-15 03:27:06,946 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:06,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:07,000 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:07,000 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:09,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:09,061 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:09,061 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:13,113 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:13,114 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:13,114 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:13,114 - __main__ - WARNING - Fallito invio prodotto: Abito lungo elegante a strati ...
+2026-07-15 03:27:13,114 - __main__ - INFO - Nuovo prodotto: Abito copricostume bohémien mu... (donna)
+2026-07-15 03:27:13,115 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:13,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:13,163 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:13,163 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:15,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:15,215 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:15,215 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:19,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:19,426 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:19,427 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:19,427 - __main__ - WARNING - Fallito invio prodotto: Abito copricostume bohémien mu...
+2026-07-15 03:27:19,427 - __main__ - INFO - Nuovo prodotto: Bikini sexy 2 pezzi con access... (donna)
+2026-07-15 03:27:19,427 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:19,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:19,734 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:19,734 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:21,787 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:21,787 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:21,787 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:25,843 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:25,843 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:25,843 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:25,844 - __main__ - WARNING - Fallito invio prodotto: Bikini sexy 2 pezzi con access...
+2026-07-15 03:27:25,844 - __main__ - INFO - Nuovo prodotto: Pantaloncini casual con vita e... (donna)
+2026-07-15 03:27:25,844 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:25,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:25,897 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:25,898 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:27,950 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:27,951 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:27,951 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:32,007 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:32,008 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:32,008 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:32,009 - __main__ - WARNING - Fallito invio prodotto: Pantaloncini casual con vita e...
+2026-07-15 03:27:32,009 - __main__ - INFO - Nuovo prodotto: Top senza schienale con spalli... (donna)
+2026-07-15 03:27:32,009 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:32,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:32,056 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:32,056 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:34,110 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:34,111 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:34,111 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:38,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:38,168 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:38,168 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:38,168 - __main__ - WARNING - Fallito invio prodotto: Top senza schienale con spalli...
+2026-07-15 03:27:38,168 - __main__ - INFO - Nuovo prodotto: Set 2 pezzi con top a canotta ... (donna)
+2026-07-15 03:27:38,168 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:38,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:38,221 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:38,221 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:40,274 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:40,275 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:40,275 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:44,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:44,326 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:44,326 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:44,327 - __main__ - WARNING - Fallito invio prodotto: Set 2 pezzi con top a canotta ...
+2026-07-15 03:27:44,327 - __main__ - INFO - Nuovo prodotto: ZenBolt Pantaloncini sportivi ... (uomo)
+2026-07-15 03:27:44,327 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:44,380 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:44,381 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:44,381 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:46,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:46,429 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:46,429 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:50,481 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:50,497 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:50,497 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:50,497 - __main__ - WARNING - Fallito invio prodotto: ZenBolt Pantaloncini sportivi ...
+2026-07-15 03:27:50,497 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta fitness... (uomo)
+2026-07-15 03:27:50,497 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:50,550 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:50,551 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:50,551 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:52,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:52,604 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:52,604 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:27:56,681 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:56,682 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:56,682 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:27:56,682 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta fitness...
+2026-07-15 03:27:56,682 - __main__ - INFO - Nuovo prodotto: Pantaloni a compressione 3/4 Z... (uomo)
+2026-07-15 03:27:56,682 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:27:56,759 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:56,760 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:56,760 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:27:58,817 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:27:58,818 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:27:58,818 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:28:02,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:02,873 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:02,873 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:28:02,873 - __main__ - WARNING - Fallito invio prodotto: Pantaloni a compressione 3/4 Z...
+2026-07-15 03:28:02,873 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Canotta casual co... (uomo)
+2026-07-15 03:28:02,873 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:28:02,918 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:02,919 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:02,919 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:28:05,038 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:05,039 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:05,039 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:28:09,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:09,115 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:09,115 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:28:09,115 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Canotta casual co...
+2026-07-15 03:28:09,115 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-15 03:28:09,115 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:28:09,166 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:09,167 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:09,167 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:28:11,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:11,219 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:11,219 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:28:15,279 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:15,280 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:15,280 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:28:15,280 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta "Do It ...
+2026-07-15 03:28:15,280 - __main__ - INFO - Nuovo prodotto: AHTELB Pantaloncini estivi 3/4... (uomo)
+2026-07-15 03:28:15,280 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:28:15,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:15,332 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:15,332 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:28:17,384 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:17,385 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:17,385 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:28:21,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:21,454 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:21,455 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:28:21,455 - __main__ - WARNING - Fallito invio prodotto: AHTELB Pantaloncini estivi 3/4...
+2026-07-15 03:28:21,455 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Canotta casual co... (uomo)
+2026-07-15 03:28:21,455 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:28:21,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:21,540 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:21,540 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:28:23,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:23,592 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:23,592 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:28:27,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:27,647 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:27,647 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:28:27,647 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Canotta casual co...
+2026-07-15 03:28:27,647 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-15 03:28:27,647 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:28:27,696 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:27,697 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:27,697 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:28:29,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:29,749 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:29,749 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:28:33,804 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:28:33,805 - __main__ - ERROR - Errore Telegram: Chat not found
+2026-07-15 03:28:33,805 - __main__ - ERROR - Errore finale invio Telegram: Chat not found
+2026-07-15 03:28:33,805 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta "Do It ...
+2026-07-15 03:28:33,805 - __main__ - INFO - ℹ️ Nessun nuovo prodotto da inviare
+2026-07-15 03:28:33,805 - __main__ - INFO - Bot SHEIN Avanzato completato
+2026-07-15 03:31:55,616 - __main__ - INFO - Bot SHEIN Avanzato avviato
+2026-07-15 03:31:55,617 - __main__ - WARNING - File sent_products.json non trovato, creazione nuovo registro
+2026-07-15 03:31:55,617 - __main__ - INFO - Prodotti caricati: 38
+2026-07-15 03:31:55,617 - __main__ - INFO - Link già inviati: 0
+2026-07-15 03:31:55,617 - __main__ - INFO - Invio campagne promozionali...
+2026-07-15 03:31:56,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 200 OK"
+2026-07-15 03:31:56,335 - __main__ - INFO - Campagna inviata: 🔥 60% DI SCONTO
+2026-07-15 03:31:58,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 200 OK"
+2026-07-15 03:31:58,400 - __main__ - INFO - Campagna inviata: 💰 TUTTO SOTTO 1€
+2026-07-15 03:32:00,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 200 OK"
+2026-07-15 03:32:00,479 - __main__ - INFO - Campagna inviata: ✨ NUOVI ARRIVI
+2026-07-15 03:32:02,547 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendMessage "HTTP/1.1 200 OK"
+2026-07-15 03:32:02,548 - __main__ - INFO - Campagna inviata: ☀️ COLLEZIONE ESTATE
+2026-07-15 03:32:04,550 - __main__ - INFO - Campagne inviate: 4
+2026-07-15 03:32:04,551 - __main__ - INFO - Nuovo prodotto: Set da 2 pezzi donna stile Y2K... (donna)
+2026-07-15 03:32:04,551 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:04,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:04,639 - __main__ - INFO - Messaggio inviato con successo: Set da 2 pezzi donna stile Y2K...
+2026-07-15 03:32:07,642 - __main__ - INFO - Nuovo prodotto: Abito bianco traforato a manic... (donna)
+2026-07-15 03:32:07,642 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:07,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:07,892 - __main__ - INFO - Messaggio inviato con successo: Abito bianco traforato a manic...
+2026-07-15 03:32:10,895 - __main__ - INFO - Nuovo prodotto: Camicia nera in raso con fiocc... (donna)
+2026-07-15 03:32:10,895 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:10,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:10,976 - __main__ - INFO - Messaggio inviato con successo: Camicia nera in raso con fiocc...
+2026-07-15 03:32:13,979 - __main__ - INFO - Nuovo prodotto: FOR BEAUTY Vestito Slim Fit Y2... (donna)
+2026-07-15 03:32:13,979 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:14,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:14,077 - __main__ - INFO - Messaggio inviato con successo: FOR BEAUTY Vestito Slim Fit Y2...
+2026-07-15 03:32:17,080 - __main__ - INFO - Nuovo prodotto: Vestito copricostume nero tras... (donna)
+2026-07-15 03:32:17,080 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:17,199 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:17,200 - __main__ - INFO - Messaggio inviato con successo: Vestito copricostume nero tras...
+2026-07-15 03:32:20,202 - __main__ - INFO - Nuovo prodotto: Set bikini a quadri neri... (donna)
+2026-07-15 03:32:20,202 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:20,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:20,310 - __main__ - INFO - Messaggio inviato con successo: Set bikini a quadri neri...
+2026-07-15 03:32:23,312 - __main__ - INFO - Nuovo prodotto: Vestito copricostume bohémien... (donna)
+2026-07-15 03:32:23,312 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:23,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:23,388 - __main__ - INFO - Messaggio inviato con successo: Vestito copricostume bohémien...
+2026-07-15 03:32:26,392 - __main__ - INFO - Nuovo prodotto: Canotta in rete marrone corset... (donna)
+2026-07-15 03:32:26,392 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:26,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:26,476 - __main__ - INFO - Messaggio inviato con successo: Canotta in rete marrone corset...
+2026-07-15 03:32:29,479 - __main__ - INFO - Nuovo prodotto: Abito asimmetrico lavorato a m... (donna)
+2026-07-15 03:32:29,479 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:29,558 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:29,559 - __main__ - INFO - Messaggio inviato con successo: Abito asimmetrico lavorato a m...
+2026-07-15 03:32:32,561 - __main__ - INFO - Nuovo prodotto: Abito in maglia giallo senza m... (donna)
+2026-07-15 03:32:32,561 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:32,648 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:32,649 - __main__ - INFO - Messaggio inviato con successo: Abito in maglia giallo senza m...
+2026-07-15 03:32:35,652 - __main__ - INFO - Nuovo prodotto: Canotta schiena scoperta con s... (donna)
+2026-07-15 03:32:35,652 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:35,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:35,737 - __main__ - INFO - Messaggio inviato con successo: Canotta schiena scoperta con s...
+2026-07-15 03:32:38,739 - __main__ - INFO - Nuovo prodotto: Set elegante canotta e gonna p... (donna)
+2026-07-15 03:32:38,740 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:38,814 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:38,815 - __main__ - INFO - Messaggio inviato con successo: Set elegante canotta e gonna p...
+2026-07-15 03:32:41,818 - __main__ - INFO - Nuovo prodotto: Abito da spiaggia bianco senza... (donna)
+2026-07-15 03:32:41,819 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:41,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:41,908 - __main__ - INFO - Messaggio inviato con successo: Abito da spiaggia bianco senza...
+2026-07-15 03:32:44,911 - __main__ - INFO - Nuovo prodotto: Vestito Maxi giallo con spacco... (donna)
+2026-07-15 03:32:44,911 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:45,066 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:45,067 - __main__ - INFO - Messaggio inviato con successo: Vestito Maxi giallo con spacco...
+2026-07-15 03:32:48,070 - __main__ - INFO - Nuovo prodotto: Bikini a triangolo con paillet... (donna)
+2026-07-15 03:32:48,071 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:48,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:48,192 - __main__ - INFO - Messaggio inviato con successo: Bikini a triangolo con paillet...
+2026-07-15 03:32:51,195 - __main__ - INFO - Nuovo prodotto: Abito mini con motivo leoparda... (donna)
+2026-07-15 03:32:51,195 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:51,274 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:51,275 - __main__ - INFO - Messaggio inviato con successo: Abito mini con motivo leoparda...
+2026-07-15 03:32:54,278 - __main__ - INFO - Nuovo prodotto: Pantaloncini casual larghi con... (donna)
+2026-07-15 03:32:54,279 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:32:57,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:32:57,415 - __main__ - INFO - Messaggio inviato con successo: Pantaloncini casual larghi con...
+2026-07-15 03:33:00,418 - __main__ - INFO - Nuovo prodotto: Abito in maglia marrone stile ... (donna)
+2026-07-15 03:33:00,418 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:00,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:00,517 - __main__ - INFO - Messaggio inviato con successo: Abito in maglia marrone stile ...
+2026-07-15 03:33:03,520 - __main__ - INFO - Nuovo prodotto: Bikini a vita alta con stampa ... (donna)
+2026-07-15 03:33:03,520 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:03,618 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:03,620 - __main__ - INFO - Messaggio inviato con successo: Bikini a vita alta con stampa ...
+2026-07-15 03:33:06,623 - __main__ - INFO - Nuovo prodotto: Costume da bagno intero con sc... (donna)
+2026-07-15 03:33:06,623 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:07,056 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:07,058 - __main__ - INFO - Messaggio inviato con successo: Costume da bagno intero con sc...
+2026-07-15 03:33:10,061 - __main__ - INFO - Nuovo prodotto: Set 4 pezzi per allenamento sp... (donna)
+2026-07-15 03:33:10,061 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:10,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:10,166 - __main__ - INFO - Messaggio inviato con successo: Set 4 pezzi per allenamento sp...
+2026-07-15 03:33:13,170 - __main__ - INFO - Nuovo prodotto: Vestito Slim Fit Y2K con spall... (donna)
+2026-07-15 03:33:13,170 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:13,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:13,272 - __main__ - INFO - Messaggio inviato con successo: Vestito Slim Fit Y2K con spall...
+2026-07-15 03:33:16,275 - __main__ - INFO - Nuovo prodotto: Blusa in raso color champagne... (donna)
+2026-07-15 03:33:16,275 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:16,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:16,367 - __main__ - INFO - Messaggio inviato con successo: Blusa in raso color champagne...
+2026-07-15 03:33:19,369 - __main__ - INFO - Nuovo prodotto: Bikini a fascia con stampa di ... (donna)
+2026-07-15 03:33:19,369 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:19,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:19,465 - __main__ - INFO - Messaggio inviato con successo: Bikini a fascia con stampa di ...
+2026-07-15 03:33:22,467 - __main__ - INFO - Nuovo prodotto: Abito lungo elegante a strati ... (donna)
+2026-07-15 03:33:22,467 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:22,568 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:22,569 - __main__ - INFO - Messaggio inviato con successo: Abito lungo elegante a strati ...
+2026-07-15 03:33:25,572 - __main__ - INFO - Nuovo prodotto: Abito copricostume bohémien mu... (donna)
+2026-07-15 03:33:25,572 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:26,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:26,282 - __main__ - INFO - Messaggio inviato con successo: Abito copricostume bohémien mu...
+2026-07-15 03:33:29,285 - __main__ - INFO - Nuovo prodotto: Bikini sexy 2 pezzi con access... (donna)
+2026-07-15 03:33:29,285 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:29,800 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:29,802 - __main__ - INFO - Messaggio inviato con successo: Bikini sexy 2 pezzi con access...
+2026-07-15 03:33:32,805 - __main__ - INFO - Nuovo prodotto: Pantaloncini casual con vita e... (donna)
+2026-07-15 03:33:32,805 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:32,902 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:32,903 - __main__ - INFO - Messaggio inviato con successo: Pantaloncini casual con vita e...
+2026-07-15 03:33:35,906 - __main__ - INFO - Nuovo prodotto: Top senza schienale con spalli... (donna)
+2026-07-15 03:33:35,906 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:35,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:35,986 - __main__ - INFO - Messaggio inviato con successo: Top senza schienale con spalli...
+2026-07-15 03:33:38,989 - __main__ - INFO - Nuovo prodotto: Set 2 pezzi con top a canotta ... (donna)
+2026-07-15 03:33:38,989 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:39,089 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:39,090 - __main__ - INFO - Messaggio inviato con successo: Set 2 pezzi con top a canotta ...
+2026-07-15 03:33:42,093 - __main__ - INFO - Nuovo prodotto: ZenBolt Pantaloncini sportivi ... (uomo)
+2026-07-15 03:33:42,094 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:43,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:43,023 - __main__ - INFO - Messaggio inviato con successo: ZenBolt Pantaloncini sportivi ...
+2026-07-15 03:33:46,026 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta fitness... (uomo)
+2026-07-15 03:33:46,027 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:46,101 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:33:46,101 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:33:46,102 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:33:48,160 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:33:48,161 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:33:48,161 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:33:52,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:33:52,221 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:33:52,222 - __main__ - ERROR - Errore finale invio Telegram: Button_url_invalid
+2026-07-15 03:33:52,222 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta fitness...
+2026-07-15 03:33:52,222 - __main__ - INFO - Nuovo prodotto: Pantaloni a compressione 3/4 Z... (uomo)
+2026-07-15 03:33:52,222 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:53,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:53,244 - __main__ - INFO - Messaggio inviato con successo: Pantaloni a compressione 3/4 Z...
+2026-07-15 03:33:56,247 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Canotta casual co... (uomo)
+2026-07-15 03:33:56,248 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:56,743 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:33:56,745 - __main__ - INFO - Messaggio inviato con successo: ZYNTH BALENO Canotta casual co...
+2026-07-15 03:33:59,747 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-15 03:33:59,747 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:33:59,803 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:33:59,804 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:33:59,804 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:34:01,882 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:34:01,883 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:34:01,883 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:34:05,952 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:34:05,952 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:34:05,952 - __main__ - ERROR - Errore finale invio Telegram: Button_url_invalid
+2026-07-15 03:34:05,952 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta "Do It ...
+2026-07-15 03:34:05,952 - __main__ - INFO - Nuovo prodotto: AHTELB Pantaloncini estivi 3/4... (uomo)
+2026-07-15 03:34:05,952 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:34:06,032 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:34:06,033 - __main__ - INFO - Messaggio inviato con successo: AHTELB Pantaloncini estivi 3/4...
+2026-07-15 03:34:09,036 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-15 03:34:09,036 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:34:09,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:34:09,115 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:34:09,115 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:34:11,180 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:34:11,180 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:34:11,180 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:34:15,237 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:34:15,238 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:34:15,238 - __main__ - ERROR - Errore finale invio Telegram: Button_url_invalid
+2026-07-15 03:34:15,238 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta "Do It ...
+2026-07-15 03:34:15,238 - __main__ - INFO - Registro prodotti salvato
+2026-07-15 03:34:15,238 - __main__ - INFO - ✅ Inviati 34 nuovi prodotti
+2026-07-15 03:34:15,238 - __main__ - INFO - Bot SHEIN Avanzato completato

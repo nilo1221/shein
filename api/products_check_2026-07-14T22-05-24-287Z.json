@@ -1,0 +1,34 @@
+[
+  {
+    "asin": "B0G3ZGTMJ3",
+    "status": "UNAVAILABLE",
+    "message": "p.when(\"a\", \"load\").execute(\"aod-assets-loaded\", function(a){\n        function logassetsnotloaded() {\n            if (window.uelogerror) {\n                var customerror = { message: 'failed to load aod assets for wdg: toy_display_on_website, device: web' };\n                var additionalinfo = {\n                    loglevel : 'error',\n                    attribution : 'aod_assets_not_loaded'\n                };\n                uelogerror (customerror, additionalinfo);\n            }\n            if (window.ue && window.ue.count) {\n                window.ue.count(\"aod-assets-not-loaded\", 1);\n            }\n        }\n\n        function verifyassetsloaded() {\n            var assetsloadedpagestate = a.state('aod:assetsloaded');\n            var logassetsnotloadedstate = a.state('aod:logassetsnotloaded');\n\n            if((assetsloadedpagestate == null || !assetsloadedpagestate.isaodassetsloaded)\n                && (logassetsnotloadedstate == null || !logassetsnotloadedstate.isaodassetsnotloadedlogged)) {\n                a.state('aod:logassetsnotloaded', {isaodassetsnotloadedlogged: true});\n                logassetsnotloaded();\n            }\n        }\n\n        settimeout(verifyassetsloaded, 50000)\n    });\n                     non disponibile.                     non sappiamo se o quando l’articolo sarà di nuovo disponibile.",
+    "title": "Squishmallows Peluche originale di Kpop Demon Hunters, 30,5 cm – Peluche ufficiale Jazwares (taglia M)"
+  },
+  {
+    "asin": "B08543HCJ5",
+    "status": "UNAVAILABLE",
+    "message": "p.when(\"a\", \"load\").execute(\"aod-assets-loaded\", function(a){\n        function logassetsnotloaded() {\n            if (window.uelogerror) {\n                var customerror = { message: 'failed to load aod assets for wdg: toy_display_on_website, device: web' };\n                var additionalinfo = {\n                    loglevel : 'error',\n                    attribution : 'aod_assets_not_loaded'\n                };\n                uelogerror (customerror, additionalinfo);\n            }\n            if (window.ue && window.ue.count) {\n                window.ue.count(\"aod-assets-not-loaded\", 1);\n            }\n        }\n\n        function verifyassetsloaded() {\n            var assetsloadedpagestate = a.state('aod:assetsloaded');\n            var logassetsnotloadedstate = a.state('aod:logassetsnotloaded');\n\n            if((assetsloadedpagestate == null || !assetsloadedpagestate.isaodassetsloaded)\n                && (logassetsnotloadedstate == null || !logassetsnotloadedstate.isaodassetsnotloadedlogged)) {\n                a.state('aod:logassetsnotloaded', {isaodassetsnotloadedlogged: true});\n                logassetsnotloaded();\n            }\n        }\n\n        settimeout(verifyassetsloaded, 50000)\n    });\n                     non disponibile.                     non sappiamo se o quando l’articolo sarà di nuovo disponibile.",
+    "title": "Squishmallow s Official Kellytoy - Peluche morbido da 16 pollici, motivo: leopardo"
+  },
+  {
+    "asin": "B09RRY8HVR",
+    "status": "OK",
+    "message": "Disponibile con prezzo",
+    "title": "Squishmallow Kellytoy - Peluche da collezione ufficiale dell",
+    "price": "51,,28€"
+  },
+  {
+    "asin": "B0C81Z86KT",
+    "status": "UNAVAILABLE",
+    "message": "p.when(\"a\", \"load\").execute(\"aod-assets-loaded\", function(a){\n        function logassetsnotloaded() {\n            if (window.uelogerror) {\n                var customerror = { message: 'failed to load aod assets for wdg: toy_display_on_website, device: web' };\n                var additionalinfo = {\n                    loglevel : 'error',\n                    attribution : 'aod_assets_not_loaded'\n                };\n                uelogerror (customerror, additionalinfo);\n            }\n            if (window.ue && window.ue.count) {\n                window.ue.count(\"aod-assets-not-loaded\", 1);\n            }\n        }\n\n        function verifyassetsloaded() {\n            var assetsloadedpagestate = a.state('aod:assetsloaded');\n            var logassetsnotloadedstate = a.state('aod:logassetsnotloaded');\n\n            if((assetsloadedpagestate == null || !assetsloadedpagestate.isaodassetsloaded)\n                && (logassetsnotloadedstate == null || !logassetsnotloadedstate.isaodassetsnotloadedlogged)) {\n                a.state('aod:logassetsnotloaded', {isaodassetsnotloadedlogged: true});\n                logassetsnotloaded();\n            }\n        }\n\n        settimeout(verifyassetsloaded, 50000)\n    });\n                     non disponibile.                     non sappiamo se o quando l’articolo sarà di nuovo disponibile.",
+    "title": "Squishmallows Originale mostro Atwater viola con pinne e guance a cuore - Peluche ufficiale Jazwares"
+  },
+  {
+    "asin": "B08NTTMT8F",
+    "status": "OK",
+    "message": "Disponibile con prezzo",
+    "title": "Squishmallow Official Kellytoy Plush 14\" Sulley - Disney Pix",
+    "price": "92,,40€"
+  }
+]

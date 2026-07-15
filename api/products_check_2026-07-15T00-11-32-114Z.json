@@ -1,0 +1,32 @@
+[
+  {
+    "asin": "B09FYC75T9",
+    "status": "404",
+    "message": "Prodotto non trovato"
+  },
+  {
+    "asin": "B0FTTNWLM5",
+    "status": "OK",
+    "message": "Disponibile con prezzo",
+    "title": "Generico Octopus Plush Reversibile - Mood Octopus | Pelugini",
+    "price": "23,,69€"
+  },
+  {
+    "asin": "B0FC6P9BW1",
+    "status": "OK",
+    "message": "Disponibile con prezzo",
+    "title": "Generico Octopus peluche - reversibile soffice da per bambin",
+    "price": "13,,29€"
+  },
+  {
+    "asin": "B0FFCDHZXZ",
+    "status": "NO_PRICE",
+    "message": "Prezzo non trovato",
+    "title": "Genérico Octopus: Octopus Peluche Reversibile con Volti Tristi Felici, Peluche Morbido Giocattolo | Mood Animal per Bambini Adulti, Ansia Fildget Flushie, Compagno Di Viaggio,"
+  },
+  {
+    "asin": "B09PGTCCPR",
+    "status": "404",
+    "message": "Prodotto non trovato"
+  }
+]

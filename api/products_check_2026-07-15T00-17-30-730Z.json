@@ -1,0 +1,15 @@
+[
+  {
+    "asin": "B008P51CEK",
+    "status": "OK",
+    "message": "Disponibile con prezzo",
+    "title": "Confezione da 4 colori – Peluche di polpo reversibile 10 cm ",
+    "price": "17,,99€"
+  },
+  {
+    "asin": "B091MKMKXV",
+    "status": "UNAVAILABLE",
+    "message": "p.when(\"a\", \"load\").execute(\"aod-assets-loaded\", function(a){\n        function logassetsnotloaded() {\n            if (window.uelogerror) {\n                var customerror = { message: 'failed to load aod assets for wdg: apparel_display_on_website, device: web' };\n                var additionalinfo = {\n                    loglevel : 'error',\n                    attribution : 'aod_assets_not_loaded'\n                };\n                uelogerror (customerror, additionalinfo);\n            }\n            if (window.ue && window.ue.count) {\n                window.ue.count(\"aod-assets-not-loaded\", 1);\n            }\n        }\n\n        function verifyassetsloaded() {\n            var assetsloadedpagestate = a.state('aod:assetsloaded');\n            var logassetsnotloadedstate = a.state('aod:logassetsnotloaded');\n\n            if((assetsloadedpagestate == null || !assetsloadedpagestate.isaodassetsloaded)\n                && (logassetsnotloadedstate == null || !logassetsnotloadedstate.isaodassetsnotloadedlogged)) {\n                a.state('aod:logassetsnotloaded', {isaodassetsnotloadedlogged: true});\n                logassetsnotloaded();\n            }\n        }\n\n        settimeout(verifyassetsloaded, 50000)\n    });\n                     non disponibile.                     non sappiamo se o quando l’articolo sarà di nuovo disponibile.",
+    "title": "Portachiavi a forma di polipo reversibile, con doppio lato, polipo felice/polipo triste, alla moda (Verde-Viola)"
+  }
+]
