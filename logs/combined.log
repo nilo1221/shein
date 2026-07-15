@@ -1069,3 +1069,197 @@
 2026-07-15 03:34:15,238 - __main__ - INFO - Registro prodotti salvato
 2026-07-15 03:34:15,238 - __main__ - INFO - ✅ Inviati 34 nuovi prodotti
 2026-07-15 03:34:15,238 - __main__ - INFO - Bot SHEIN Avanzato completato
+2026-07-15 03:41:23,969 - __main__ - INFO - Bot SHEIN Avanzato avviato
+2026-07-15 03:41:23,969 - __main__ - WARNING - File sent_products.json non trovato, creazione nuovo registro
+2026-07-15 03:41:23,969 - __main__ - INFO - Prodotti caricati: 38
+2026-07-15 03:41:23,970 - __main__ - INFO - Link già inviati: 0
+2026-07-15 03:41:23,970 - __main__ - INFO - Nuovo prodotto: Set da 2 pezzi donna stile Y2K... (donna)
+2026-07-15 03:41:23,970 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:24,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:24,151 - __main__ - INFO - Messaggio inviato con successo: Set da 2 pezzi donna stile Y2K...
+2026-07-15 03:41:27,154 - __main__ - INFO - Nuovo prodotto: Abito bianco traforato a manic... (donna)
+2026-07-15 03:41:27,154 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:27,289 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:27,290 - __main__ - INFO - Messaggio inviato con successo: Abito bianco traforato a manic...
+2026-07-15 03:41:30,294 - __main__ - INFO - Nuovo prodotto: Camicia nera in raso con fiocc... (donna)
+2026-07-15 03:41:30,294 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:30,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:30,380 - __main__ - INFO - Messaggio inviato con successo: Camicia nera in raso con fiocc...
+2026-07-15 03:41:33,384 - __main__ - INFO - Nuovo prodotto: FOR BEAUTY Vestito Slim Fit Y2... (donna)
+2026-07-15 03:41:33,384 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:33,487 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:33,488 - __main__ - INFO - Messaggio inviato con successo: FOR BEAUTY Vestito Slim Fit Y2...
+2026-07-15 03:41:36,491 - __main__ - INFO - Nuovo prodotto: Vestito copricostume nero tras... (donna)
+2026-07-15 03:41:36,491 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:36,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:36,648 - __main__ - INFO - Messaggio inviato con successo: Vestito copricostume nero tras...
+2026-07-15 03:41:39,651 - __main__ - INFO - Nuovo prodotto: Set bikini a quadri neri... (donna)
+2026-07-15 03:41:39,651 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:39,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:39,771 - __main__ - INFO - Messaggio inviato con successo: Set bikini a quadri neri...
+2026-07-15 03:41:42,774 - __main__ - INFO - Nuovo prodotto: Vestito copricostume bohémien... (donna)
+2026-07-15 03:41:42,774 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:42,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:42,845 - __main__ - INFO - Messaggio inviato con successo: Vestito copricostume bohémien...
+2026-07-15 03:41:45,848 - __main__ - INFO - Nuovo prodotto: Canotta in rete marrone corset... (donna)
+2026-07-15 03:41:45,848 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:45,919 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:45,920 - __main__ - INFO - Messaggio inviato con successo: Canotta in rete marrone corset...
+2026-07-15 03:41:48,923 - __main__ - INFO - Nuovo prodotto: Abito asimmetrico lavorato a m... (donna)
+2026-07-15 03:41:48,923 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:49,002 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:49,003 - __main__ - INFO - Messaggio inviato con successo: Abito asimmetrico lavorato a m...
+2026-07-15 03:41:52,006 - __main__ - INFO - Nuovo prodotto: Abito in maglia giallo senza m... (donna)
+2026-07-15 03:41:52,007 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:52,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:52,095 - __main__ - INFO - Messaggio inviato con successo: Abito in maglia giallo senza m...
+2026-07-15 03:41:55,098 - __main__ - INFO - Nuovo prodotto: Canotta schiena scoperta con s... (donna)
+2026-07-15 03:41:55,098 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:55,180 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:55,181 - __main__ - INFO - Messaggio inviato con successo: Canotta schiena scoperta con s...
+2026-07-15 03:41:58,184 - __main__ - INFO - Nuovo prodotto: Set elegante canotta e gonna p... (donna)
+2026-07-15 03:41:58,184 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:41:58,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:41:58,308 - __main__ - INFO - Messaggio inviato con successo: Set elegante canotta e gonna p...
+2026-07-15 03:42:01,311 - __main__ - INFO - Nuovo prodotto: Abito da spiaggia bianco senza... (donna)
+2026-07-15 03:42:01,312 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:01,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:01,390 - __main__ - INFO - Messaggio inviato con successo: Abito da spiaggia bianco senza...
+2026-07-15 03:42:04,392 - __main__ - INFO - Nuovo prodotto: Vestito Maxi giallo con spacco... (donna)
+2026-07-15 03:42:04,392 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:04,521 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:04,522 - __main__ - INFO - Messaggio inviato con successo: Vestito Maxi giallo con spacco...
+2026-07-15 03:42:07,525 - __main__ - INFO - Nuovo prodotto: Bikini a triangolo con paillet... (donna)
+2026-07-15 03:42:07,525 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:07,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:07,616 - __main__ - INFO - Messaggio inviato con successo: Bikini a triangolo con paillet...
+2026-07-15 03:42:10,619 - __main__ - INFO - Nuovo prodotto: Abito mini con motivo leoparda... (donna)
+2026-07-15 03:42:10,619 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:10,697 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:10,698 - __main__ - INFO - Messaggio inviato con successo: Abito mini con motivo leoparda...
+2026-07-15 03:42:13,702 - __main__ - INFO - Nuovo prodotto: Pantaloncini casual larghi con... (donna)
+2026-07-15 03:42:13,702 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:13,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:13,774 - __main__ - INFO - Messaggio inviato con successo: Pantaloncini casual larghi con...
+2026-07-15 03:42:16,777 - __main__ - INFO - Nuovo prodotto: Abito in maglia marrone stile ... (donna)
+2026-07-15 03:42:16,777 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:16,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:16,855 - __main__ - INFO - Messaggio inviato con successo: Abito in maglia marrone stile ...
+2026-07-15 03:42:19,859 - __main__ - INFO - Nuovo prodotto: Bikini a vita alta con stampa ... (donna)
+2026-07-15 03:42:19,859 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:19,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:19,932 - __main__ - INFO - Messaggio inviato con successo: Bikini a vita alta con stampa ...
+2026-07-15 03:42:22,936 - __main__ - INFO - Nuovo prodotto: Costume da bagno intero con sc... (donna)
+2026-07-15 03:42:22,936 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:23,015 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:23,016 - __main__ - INFO - Messaggio inviato con successo: Costume da bagno intero con sc...
+2026-07-15 03:42:26,019 - __main__ - INFO - Nuovo prodotto: Set 4 pezzi per allenamento sp... (donna)
+2026-07-15 03:42:26,019 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:26,089 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:26,090 - __main__ - INFO - Messaggio inviato con successo: Set 4 pezzi per allenamento sp...
+2026-07-15 03:42:29,093 - __main__ - INFO - Nuovo prodotto: Vestito Slim Fit Y2K con spall... (donna)
+2026-07-15 03:42:29,093 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:29,160 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:29,161 - __main__ - INFO - Messaggio inviato con successo: Vestito Slim Fit Y2K con spall...
+2026-07-15 03:42:32,164 - __main__ - INFO - Nuovo prodotto: Blusa in raso color champagne... (donna)
+2026-07-15 03:42:32,165 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:32,245 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:32,246 - __main__ - INFO - Messaggio inviato con successo: Blusa in raso color champagne...
+2026-07-15 03:42:35,249 - __main__ - INFO - Nuovo prodotto: Bikini a fascia con stampa di ... (donna)
+2026-07-15 03:42:35,249 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:35,331 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:35,332 - __main__ - INFO - Messaggio inviato con successo: Bikini a fascia con stampa di ...
+2026-07-15 03:42:38,334 - __main__ - INFO - Nuovo prodotto: Abito lungo elegante a strati ... (donna)
+2026-07-15 03:42:38,334 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:38,403 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:38,404 - __main__ - INFO - Messaggio inviato con successo: Abito lungo elegante a strati ...
+2026-07-15 03:42:41,407 - __main__ - INFO - Nuovo prodotto: Abito copricostume bohémien mu... (donna)
+2026-07-15 03:42:41,407 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:41,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:41,486 - __main__ - INFO - Messaggio inviato con successo: Abito copricostume bohémien mu...
+2026-07-15 03:42:44,489 - __main__ - INFO - Nuovo prodotto: Bikini sexy 2 pezzi con access... (donna)
+2026-07-15 03:42:44,489 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:44,725 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:44,726 - __main__ - INFO - Messaggio inviato con successo: Bikini sexy 2 pezzi con access...
+2026-07-15 03:42:47,729 - __main__ - INFO - Nuovo prodotto: Pantaloncini casual con vita e... (donna)
+2026-07-15 03:42:47,729 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:47,824 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:47,825 - __main__ - INFO - Messaggio inviato con successo: Pantaloncini casual con vita e...
+2026-07-15 03:42:50,828 - __main__ - INFO - Nuovo prodotto: Top senza schienale con spalli... (donna)
+2026-07-15 03:42:50,828 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:50,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:50,916 - __main__ - INFO - Messaggio inviato con successo: Top senza schienale con spalli...
+2026-07-15 03:42:53,919 - __main__ - INFO - Nuovo prodotto: Set 2 pezzi con top a canotta ... (donna)
+2026-07-15 03:42:53,919 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:54,054 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:54,055 - __main__ - INFO - Messaggio inviato con successo: Set 2 pezzi con top a canotta ...
+2026-07-15 03:42:57,058 - __main__ - INFO - Nuovo prodotto: ZenBolt Pantaloncini sportivi ... (uomo)
+2026-07-15 03:42:57,058 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:42:57,137 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:42:57,138 - __main__ - INFO - Messaggio inviato con successo: ZenBolt Pantaloncini sportivi ...
+2026-07-15 03:43:00,141 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta fitness... (uomo)
+2026-07-15 03:43:00,142 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:43:00,220 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:43:00,222 - __main__ - INFO - Messaggio inviato con successo: ZYNTH BALENO Maglietta fitness...
+2026-07-15 03:43:03,224 - __main__ - INFO - Nuovo prodotto: Pantaloni a compressione 3/4 Z... (uomo)
+2026-07-15 03:43:03,224 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:43:03,302 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:43:03,303 - __main__ - INFO - Messaggio inviato con successo: Pantaloni a compressione 3/4 Z...
+2026-07-15 03:43:06,306 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Canotta casual co... (uomo)
+2026-07-15 03:43:06,306 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:43:06,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:43:06,379 - __main__ - INFO - Messaggio inviato con successo: ZYNTH BALENO Canotta casual co...
+2026-07-15 03:43:09,381 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-15 03:43:09,381 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:43:09,608 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:43:09,609 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:43:09,610 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:43:11,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:43:11,664 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:43:11,665 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:43:15,791 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:43:15,791 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:43:15,791 - __main__ - ERROR - Errore finale invio Telegram: Button_url_invalid
+2026-07-15 03:43:15,791 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta "Do It ...
+2026-07-15 03:43:15,791 - __main__ - INFO - Nuovo prodotto: AHTELB Pantaloncini estivi 3/4... (uomo)
+2026-07-15 03:43:15,791 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:43:15,892 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-15 03:43:15,893 - __main__ - INFO - Messaggio inviato con successo: AHTELB Pantaloncini estivi 3/4...
+2026-07-15 03:43:18,895 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-15 03:43:18,895 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:43:18,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:43:18,948 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:43:18,948 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:43:21,004 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:43:21,005 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:43:21,005 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:43:28,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:43:28,077 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:43:28,077 - __main__ - ERROR - Errore finale invio Telegram: Button_url_invalid
+2026-07-15 03:43:28,077 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta "Do It ...
+2026-07-15 03:43:28,077 - __main__ - INFO - Registro prodotti salvato
+2026-07-15 03:43:28,077 - __main__ - INFO - ✅ Inviati 35 nuovi prodotti
+2026-07-15 03:43:28,077 - __main__ - INFO - Bot SHEIN Avanzato completato
+2026-07-15 03:46:37,985 - __main__ - INFO - Bot SHEIN Avanzato avviato
+2026-07-15 03:46:37,986 - __main__ - INFO - Prodotti caricati: 38
+2026-07-15 03:46:37,986 - __main__ - INFO - Link già inviati: 35
+2026-07-15 03:46:37,986 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-15 03:46:37,986 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:46:38,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:46:38,134 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:46:38,134 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:46:40,194 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:46:40,194 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:46:40,195 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-15 03:46:44,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:46:44,258 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:46:44,258 - __main__ - ERROR - Errore finale invio Telegram: Button_url_invalid
+2026-07-15 03:46:44,259 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta "Do It ...
+2026-07-15 03:46:44,259 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-15 03:46:44,259 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-15 03:46:44,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:46:44,310 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:46:44,310 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-15 03:46:46,596 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-15 03:46:46,597 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-15 03:46:46,597 - __main__ - WARNING - Retry 2/3 after 4.0s...

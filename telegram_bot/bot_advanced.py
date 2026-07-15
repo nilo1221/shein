@@ -13,7 +13,7 @@ from datetime import datetime
 from typing import Dict, Set, List
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.error import TelegramError
-from config import BOT_TOKEN, CHANNEL_ID
+from config import BOT_TOKEN, CHANNEL_ID, CHANNEL_INVITE_LINK
 
 # Configurazione logging avanzato
 os.makedirs('logs', exist_ok=True)
@@ -180,7 +180,9 @@ async def send_to_telegram(bot: Bot, product: Dict, utm_params: Dict) -> bool:
         f"🔥 <b>NUOVO PRODOTTO SCOPERTO!</b>\n\n"
         f"{category_emoji} <b>{product['title']}</b>\n\n"
         f"📝 {product['description']}\n\n"
-        f"✨ <b>Non perdere questa offerta!</b>{hashtags}"
+        f"✨ <b>Non perdere questa offerta!</b>\n\n"
+        f"📢 <b>Unisciti al canale per altri prodotti:</b>\n"
+        f"👉 {CHANNEL_INVITE_LINK}{hashtags}"
     )
     
     async def send_message():
@@ -199,7 +201,8 @@ async def send_to_telegram(bot: Bot, product: Dict, utm_params: Dict) -> bool:
                             InlineKeyboardButton("📸 Seguici su Instagram", url=instagram_link_with_tracking)
                         ],
                         [
-                            InlineKeyboardButton("🌐 Vedi tutti i prodotti", url=page_link_with_tracking)
+                            InlineKeyboardButton("🌐 Vedi tutti i prodotti", url=page_link_with_tracking),
+                            InlineKeyboardButton("📢 Condividi Canale", url=CHANNEL_INVITE_LINK)
                         ]
                     ])
                 )
@@ -216,7 +219,8 @@ async def send_to_telegram(bot: Bot, product: Dict, utm_params: Dict) -> bool:
                             InlineKeyboardButton("📸 Seguici su Instagram", url=instagram_link_with_tracking)
                         ],
                         [
-                            InlineKeyboardButton("🌐 Vedi tutti i prodotti", url=page_link_with_tracking)
+                            InlineKeyboardButton("🌐 Vedi tutti i prodotti", url=page_link_with_tracking),
+                            InlineKeyboardButton("📢 Condividi Canale", url=CHANNEL_INVITE_LINK)
                         ]
                     ])
                 )
