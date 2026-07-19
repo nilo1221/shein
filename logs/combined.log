@@ -1263,3 +1263,113 @@
 2026-07-15 03:46:46,596 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
 2026-07-15 03:46:46,597 - __main__ - ERROR - Errore Telegram: Button_url_invalid
 2026-07-15 03:46:46,597 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-19 15:44:20,939 - __main__ - INFO - Bot SHEIN Avanzato avviato
+2026-07-19 15:44:20,940 - __main__ - INFO - Prodotti caricati: 59
+2026-07-19 15:44:20,940 - __main__ - INFO - Link già inviati: 35
+2026-07-19 15:44:20,940 - __main__ - INFO - Nuovo prodotto: ZYNTH BALENO Maglietta "Do It ... (uomo)
+2026-07-19 15:44:20,940 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:21,097 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-19 15:44:21,098 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-19 15:44:21,099 - __main__ - WARNING - Retry 1/3 after 2.0s...
+2026-07-19 15:44:23,182 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-19 15:44:23,183 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-19 15:44:23,183 - __main__ - WARNING - Retry 2/3 after 4.0s...
+2026-07-19 15:44:27,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 400 Bad Request"
+2026-07-19 15:44:27,295 - __main__ - ERROR - Errore Telegram: Button_url_invalid
+2026-07-19 15:44:27,295 - __main__ - ERROR - Errore finale invio Telegram: Button_url_invalid
+2026-07-19 15:44:27,295 - __main__ - WARNING - Fallito invio prodotto: ZYNTH BALENO Maglietta "Do It ...
+2026-07-19 15:44:27,295 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:27,295 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:27,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:27,420 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:30,423 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:30,423 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:31,002 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:31,003 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:34,006 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:34,006 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:34,124 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:34,125 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:37,128 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:37,129 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:37,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:37,255 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:40,258 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:40,258 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:40,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:40,367 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:43,370 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:43,370 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:43,597 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:43,599 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:46,601 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:46,602 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:47,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:47,240 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:50,244 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:50,244 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:50,363 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:50,364 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:53,367 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:53,367 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:53,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:53,497 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:56,500 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:56,500 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:44:56,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:44:56,614 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:44:59,617 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:44:59,617 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:00,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:00,157 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:03,160 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:03,160 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:03,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:03,663 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:06,666 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:06,666 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:07,048 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:07,049 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:10,052 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:10,052 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:10,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:10,224 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:13,228 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:13,228 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:13,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:13,689 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:16,692 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:16,692 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:17,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:17,271 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:20,274 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:20,275 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:20,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:20,457 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:23,459 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:23,459 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:23,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:23,566 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:26,569 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:26,569 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:27,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:27,120 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:30,123 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:30,123 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:30,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:30,236 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:33,240 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:33,240 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:33,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:33,422 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:36,426 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:36,426 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:37,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:37,192 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:40,195 - __main__ - INFO - Nuovo prodotto: Prodotto SHEIN... (generale)
+2026-07-19 15:45:40,195 - __main__ - INFO -   Fascia prezzo: 0€ - 100€
+2026-07-19 15:45:40,738 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8981203745:AAFvT9LTP6NEakfmbOUPhlyPNo4sOiouMp0/sendPhoto "HTTP/1.1 200 OK"
+2026-07-19 15:45:40,739 - __main__ - INFO - Messaggio inviato con successo: Prodotto SHEIN...
+2026-07-19 15:45:43,744 - __main__ - INFO - Registro prodotti salvato
+2026-07-19 15:45:43,744 - __main__ - INFO - ✅ Inviati 23 nuovi prodotti
+2026-07-19 15:45:43,744 - __main__ - INFO - Bot SHEIN Avanzato completato
