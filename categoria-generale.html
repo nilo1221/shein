@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="it">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <!-- SEO Avanzato -->
+  <title>
+   Moda Generale - Abbigliamento e Accessori
+  </title>
+  <meta content="Scopri la collezione generale: vestiti, accessori e prodotti di qualità. Acquista online generale a prezzi incredibili." name="description"/>
+  <meta content="abbigliamento donna, vestiti, moda femminile, fashion donna, shopping online donna, tendenze moda, abbigliamento economico" name="keywords"/>
+  <meta content="Moda Online" name="author"/>
+  <meta content="index, follow" name="robots"/>
+  <meta content="index, follow" name="googlebot"/>
+  <link href="https://shein-lilac.vercel.app/categoria-donna.html" rel="canonical"/>
+  <!-- Open Graph / Facebook -->
+  <meta content="website" property="og:type"/>
+  <meta content="https://shein-lilac.vercel.app/categoria-donna.html" property="og:url"/>
+  <meta content="Moda Donna - Abbigliamento, Vestiti e Accessori" property="og:title"/>
+  <meta content="Scopri la collezione moda donna: vestiti, top, pantaloni, scarpe e accessori a prezzi incredibili." property="og:description"/>
+  <meta content="https://shein-lilac.vercel.app/og-donna.jpg" property="og:image"/>
+  <meta content="it_IT" property="og:locale"/>
+  <!-- Twitter -->
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://shein-lilac.vercel.app/categoria-donna.html" name="twitter:url"/>
+  <meta content="Moda Donna - Abbigliamento, Vestiti e Accessori" name="twitter:title"/>
+  <meta content="Scopri la collezione moda donna: vestiti, top, pantaloni, scarpe e accessori a prezzi incredibili." name="twitter:description"/>
+  <meta content="https://shein-lilac.vercel.app/og-donna.jpg" name="twitter:image"/>
+  <!-- Schema.org Structured Data - CollectionPage -->
+  <script type="application/ld+json">
+   {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Moda Donna",
+        "description": "Scopri la collezione moda donna: vestiti, top, pantaloni, scarpe e accessori.",
+        "url": "https://shein-lilac.vercel.app/categoria-donna.html"
+    }
+  </script>
+  <!-- Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2Z7DZHPX5E">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2Z7DZHPX5E');
+  </script>
+  <!-- SHEIN Affiliate Tracking -->
+  <script>
+   // SHEIN Affiliate Tracking
+        (function() {
+            // Track page views
+            console.log('SHEIN Affiliate Tracking: Category Donna Page View');
+            
+            // Track clicks on affiliate links
+            document.addEventListener('click', function(e) {
+                const link = e.target.closest('a[href*="shein.com"]');
+                if (link) {
+                    console.log('SHEIN Affiliate Link Clicked:', link.href);
+                    // Add event tracking here
+                }
+            });
+        })();
+  </script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <style>
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        
+        /* Navigation */
+        .nav {
+            background: #000000;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.7;
+        }
+        
+        /* Breadcrumbs */
+        .breadcrumbs {
+            padding: 1rem 2rem;
+            background: #f8f8f8;
+            font-size: 0.9rem;
+        }
+        
+        .breadcrumbs-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .breadcrumbs a {
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+        
+        .breadcrumbs span {
+            color: #666666;
+            margin: 0 0.5rem;
+        }
+        
+        header {
+            background: #000000;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            background-color: #f0f0f0;
+        }
+        
+        .product-info {
+            padding: 1.5rem;
+        }
+        
+        .product-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #000000;
+        }
+        
+        .product-price {
+            font-size: 1.3rem;
+            color: #ff6b6b;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .product-description {
+            font-size: 0.9rem;
+            color: #666666;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+        
+        .affiliate-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background: #000000;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        
+        .affiliate-btn:hover {
+            background: #333333;
+        }
+        
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .disclaimer {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+        
+        .trend-banner {
+            background: #000000;
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .trend-banner h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        
+        .trend-banner p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .trend-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: white;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .trend-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+  </style>
+ </head>
+ <body>
+  <nav class="nav">
+   <div class="nav-container">
+    <a class="nav-logo" href="index.html">
+     🛍️ Moda Online
+    </a>
+    <ul class="nav-links">
+     <li>
+      <a href="index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="categoria-donna.html">
+       Donna
+      </a>
+     </li>
+     <li>
+      <a href="categoria-uomo.html">
+       Uomo
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <div class="breadcrumbs">
+   <div class="breadcrumbs-container">
+    <a href="index.html">
+     Home
+    </a>
+    <span>
+     ›
+    </span>
+    <a href="categoria-donna.html">
+     Moda Donna
+    </a>
+   </div>
+  </div>
+  <header>
+   <h1>
+    🛍️ Moda Donna
+   </h1>
+   <p>
+    Scopri i migliori prodotti fashion a prezzi incredibili
+   </p>
+  </header>
+  <div class="container">
+   <div class="trend-banner">
+    <h2>
+     🔥 Trend del Momento
+    </h2>
+    <p>
+     Scopri i prodotti più popolari e le ultime tendenze fashion
+    </p>
+    <a class="trend-btn" href="https://it.shein.com/top-trend?contentCarrierId_adp=50068661_387851987%2C50068665_38621879%2C50068678_290265026%2C50068663_378679450%2C50068660_72070134%2C5478503_73354179%2C5156047_439585832%2C5734523_99811237%2C2146722_434242705%2C50043942_2679277%2C348429_30967259&amp;entry_from=SwiftContentPlugin_SwiftTrendsPlugin%600%60387851987%2C%20SwiftContentPlugin_SwiftTrendsPlugin%601%6038621879%2C%20SwiftContentPlugin_SwiftTrendsPlugin%602%60290265026%2C%20SwiftContentPlugin_SwiftTrendsPlugin%603%60378679450%2C%20SwiftContentPlugin_SwiftTrendsPlugin%604%6072070134%2C%20SwiftContentPlugin_SwiftTrendsPlugin%605%6073354179%2C%20SwiftContentPlugin_SwiftTrendsPlugin%606%60439585832%2C%20SwiftContentPlugin_SwiftTrendsPlugin%607%6099811237%2C%20SwiftContentPlugin_SwiftTrendsPlugin%608%60434242705%2C%20SwiftContentPlugin_SwiftTrendsPlugin%609%602679277%2C%20SwiftContentPlugin_SwiftTrendsPlugin%6010%6030967259&amp;jumpTrendsChannel=false&amp;product_select_id=50068661%2C50068665%2C50068678%2C50068663%2C50068660%2C5478503%2C5156047%2C5734523%2C2146722%2C50043942%2C348429&amp;src_identifier=on%3DONE_THIRD_COMPONENT%60cn%3DONE_THIRD_COMPONENT_7%60hz%3D-%60jc%3Dswift_13532%60ps%3D1_2&amp;src_module=all&amp;src_tab_page_id=page_home1781904471452&amp;top_goods_id=387851987%2C38621879%2C290265026%2C378679450%2C72070134%2C73354179%2C439585832%2C99811237%2C434242705%2C2679277%2C30967259&amp;trend_word_id=8073%2C8074%2C8075%2C8076%2C8077%2C6410%2C5427%2C7030%2C3538%2C7720%2C270&amp;viewmore=true" rel="noopener" target="_blank">
+     Scopri i Trend
+    </a>
+   </div>
+   <div class="products-grid">
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/03/27/cf/1774591681ec01768716385adb22cd11cb03ccf047_square.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vw9f9356hoj" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/03/26/72/1774489152cb450c12694d18ae3fb9d15aaf975cd7.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vw9fyqj1fm2" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2025/07/09/fb/1752057273c04e4f26ed73ccb605f70cdbdc0bc954.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vw9gsc09x6m" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/04/19/4e/177656153580f909ea33ae254e1c61c27b96fe03f1_square.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vw9hjyfuosi" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/p/spmp/2026/05/14/ee/17787462210e97a061bf43a0e1f87f7b3c23306acf.png"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwagumbud0w" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/p/spmp/2026/06/03/79/178046907803bc9193bcb5e081848388fdc33d0a13.png"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwahy2yi7f7" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/pi/2026/07/06/94/1783334451ac949828e16329d556b5c7337c430037.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcbvp4lgve" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/images3_pi/2024/12/24/bc/173502487606fc24834328196aa455883aeda1f3b8.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcclcjny9a" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/pi/2026/05/29/13/1780019709509e8b29465d17c101bd927c68ea88ec.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcdiw1z408" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/pi/2026/06/15/a5/1781486639bb6b366b69dc09eedd0e4cb022712f1b.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwceiem03ku" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/05/30/09/1780118451a2ccae118f9381d33b66ceac3eb4d6f0.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwchmvdf874" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/05/29/e6/17800388115a5a4602ce8eb74260d388f5a0012a71.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcj839otgt" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/04/14/95/1776160047bdc82699119924e813d92d9a1bb2deb5.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwckne2m8v4" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/02/26/d5/1772076534af760d466c75e322c2db5a5eac946536.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwclkxlj6hz" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/03/30/c2/1774867153937b7daeb11fdb9b996a837de4f2b77a_thumbnail_405x552.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcmmf72yx0" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/06/06/e1/1780708223d6d596856f95890f527c4a42ebd504a5.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwco3p0ppa8" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2025/10/21/70/1761029991d7c87a41e7572bcbb92a679f2ef100d1.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcpizu8wie" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/pi/2026/03/30/ab/1774870698d5f2f9533cd76dfec0a50d21a26a0316.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcr66rfiwh" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/pi/2026/04/19/99/1776581625e1eaeb56712763246ccbb02be0273ee1.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcs5pbgidx" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2025/09/29/bf/1759127151798580fca4d09793f46b5a4013d81eaa_square.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwct57vmf0a" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/pi/2026/05/16/2e/1778911186b4c8ff5af7ce51f92f39ef2a9c07f1d1.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwcza7bow7o" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/pi/2026/06/12/91/1781228839552c2283d000f8e1006ee6f7cd356c1c.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwd198g5mb9" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+    <div class="product-card">
+     <img alt="Prodotto SHEIN" class="product-image" src="https://img.ltwebstatic.com/v4/j/spmp/2026/07/10/fe/178361974062d569bee010ed93dfeec6d2ec3251d6.jpg"/>
+     <div class="product-info">
+      <h3 class="product-title">
+       Prodotto SHEIN
+      </h3>
+      <p class="product-description">
+       Prodotto di qualità da SHEIN
+      </p>
+      <a class="affiliate-btn" href="https://onelink.shein.com/43/5vwv112pzdmf" rel="noopener" target="_blank">
+       Acquista su SHEIN
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer>
+   <p class="disclaimer">
+    In qualità di Affiliato SHEIN, guadagno una commissione sugli acquisti idonei effettuati tramite i link affiliati.
+   </p>
+   <p class="disclaimer">
+    © 2026 Moda Online - Tutti i diritti riservati
+   </p>
+  </footer>
+ </body>
+</html>

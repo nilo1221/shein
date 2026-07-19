@@ -55,6 +55,60 @@ def assign_category_to_general(product):
         # Se pareggio, assegna casualmente
         return 'donna' if hash(text) % 2 == 0 else 'uomo'
 
+def create_category_html(category_name, products):
+    """Crea un nuovo file HTML per una categoria se non esiste"""
+    base_dir = os.path.dirname(__file__)
+    html_file = os.path.join(base_dir, f'categoria-{category_name}.html')
+    
+    # Se il file esiste, aggiorna solo i prodotti
+    if os.path.exists(html_file):
+        update_html_file(html_file, products, category_name)
+        return
+    
+    # Se non esiste, crea un nuovo file basato su un template
+    print(f"📝 Creazione nuovo file HTML per categoria: {category_name}")
+    
+    # Usa categoria-donna.html come template
+    template_file = os.path.join(base_dir, 'categoria-donna.html')
+    if not os.path.exists(template_file):
+        print(f"❌ Template non trovato: {template_file}")
+        return
+    
+    with open(template_file, 'r', encoding='utf-8') as f:
+        template = f.read()
+    
+    # Modifica il template per la nuova categoria
+    soup = BeautifulSoup(template, 'html.parser')
+    
+    # Aggiorna titolo e meta
+    title_tag = soup.find('title')
+    if title_tag:
+        title_tag.string = f"Moda {category_name.title()} - Abbigliamento e Accessori"
+    
+    meta_desc = soup.find('meta', attrs={'name': 'description'})
+    if meta_desc:
+        meta_desc['content'] = f"Scopri la collezione {category_name}: vestiti, accessori e prodotti di qualità. Acquista online {category_name} a prezzi incredibili."
+    
+    # Aggiorna prodotti grid
+    products_grid = soup.find('div', class_='products-grid')
+    if products_grid:
+        # Rimuovi prodotti esistenti
+        for card in products_grid.find_all('div', class_='product-card'):
+            card.decompose()
+        
+        # Aggiungi nuovi prodotti
+        for product in products:
+            card_html = generate_product_card(product)
+            if card_html:
+                card_soup = BeautifulSoup(card_html, 'html.parser')
+                products_grid.append(card_soup.find('div', class_='product-card'))
+    
+    # Salva il nuovo file
+    with open(html_file, 'w', encoding='utf-8') as f:
+        f.write(str(soup.prettify()))
+    
+    print(f"✅ Creato {html_file} con {len(products)} prodotti")
+
 def update_html_file(html_file, products, category):
     """Aggiorna il file HTML con i prodotti della categoria specificata"""
     with open(html_file, 'r', encoding='utf-8') as f:
@@ -105,25 +159,25 @@ def main():
     
     print(f"📦 Totale prodotti nel file JSON: {len(products)}")
     
-    # Conta prodotti per categoria
-    donna_products = len([p for p in products if p.get('category') == 'donna'])
-    uomo_products = len([p for p in products if p.get('category') == 'uomo'])
-    generale_products = len([p for p in products if p.get('category') == 'generale'])
+    # Ottieni tutte le categorie uniche dai prodotti
+    categories = set()
+    for product in products:
+        category = product.get('category')
+        if category:
+            categories.add(category)
     
-    print(f"👗 Prodotti donna: {donna_products}")
-    print(f"👔 Prodotti uomo: {uomo_products}")
-    print(f"📦 Prodotti generali: {generale_products}")
+    print(f"📂 Categorie trovate: {len(categories)}")
+    for category in sorted(categories):
+        category_products = len([p for p in products if p.get('category') == category])
+        print(f"  - {category}: {category_products} prodotti")
     
-    # Aggiorna file HTML
+    # Aggiorna o crea file HTML per ogni categoria
     base_dir = os.path.dirname(__file__)
-    
-    # Aggiorna categoria donna
-    donna_html = os.path.join(base_dir, 'categoria-donna.html')
-    update_html_file(donna_html, products, 'donna')
-    
-    # Aggiorna categoria uomo
-    uomo_html = os.path.join(base_dir, 'categoria-uomo.html')
-    update_html_file(uomo_html, products, 'uomo')
+    for category in sorted(categories):
+        category_products = [p for p in products if p.get('category') == category]
+        
+        # Usa la funzione che crea o aggiorna il file HTML
+        create_category_html(category, category_products)
     
     print("\n✅ Sincronizzazione completata!")
 
